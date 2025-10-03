@@ -1,7 +1,7 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { articlesData } from '@/content/articles';
 import { PublicationStructuredData } from '../structured-data';
@@ -10,12 +10,12 @@ import { uploadToCloudinary } from '@/lib/cloudinary';
 
 export default function Page() {
   const searchParams = useSearchParams();
-  const tabs = [
+  const tabs = useMemo(() => [
     { id: 'dernier', label: 'Dernière parution' },
     { id: 'recherche', label: 'Rechercher un article' },
     { id: 'soumettre', label: 'Soumettre un article' },
     { id: 'abonner', label: "S'abonner" },
-  ] as const;
+  ] as const, []);
   const [activeTab, setActiveTab] = useState<typeof tabs[number]['id']>('dernier');
 
   // Handle URL tab parameter
@@ -301,9 +301,6 @@ export default function Page() {
                       <p className="text-xs text-gray-600">
                         PENANT {article.numero} ({article.annee}) - Pages {article.pages} - {article.theme}
                       </p>
-                      {article.resume && (
-                        <p className="text-sm text-gray-600 mt-2 italic">{article.resume}</p>
-                      )}
                     </div>
                   ))}
                 </div>
