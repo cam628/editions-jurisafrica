@@ -1,14 +1,14 @@
 'use client';
 
 import Image from 'next/image';
-import { useState, useEffect, useMemo } from 'react';
+import { useState, useEffect, useMemo, Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 import { articlesData } from '@/content/articles';
 import { PublicationStructuredData } from '../structured-data';
 import { FORMSPREE_ARTICLE_ENDPOINT } from '@/lib/web3forms';
 import { uploadToCloudinary } from '@/lib/cloudinary';
 
-export default function Page() {
+function PenantContent() {
   const searchParams = useSearchParams();
   const tabs = useMemo(() => [
     { id: 'dernier', label: 'Dernière parution' },
@@ -575,5 +575,13 @@ export default function Page() {
     </section>
       </main >
     );
-  }
+}
+
+export default function Page() {
+  return (
+    <Suspense fallback={<div>Loading...</div>}>
+      <PenantContent />
+    </Suspense>
+  );
+}
   
