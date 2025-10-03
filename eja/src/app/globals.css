@@ -1,18 +1,24 @@
-@import "tailwindcss";
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Base text & link reset - Improved typography for academic audience */
 html {
-  font-size: 17px; /* Increased from default 16px for better readability */
+  font-size: 17px;
+  /* Increased from default 16px for better readability */
 }
 
 body {
   @apply text-gray-800;
-  line-height: 1.7; /* Increased line height for easier reading */
+  line-height: 1.7;
+  /* Increased line height for easier reading */
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-a { @apply no-underline; }
+a {
+  @apply no-underline;
+}
 
 /* Academic-friendly body text */
 p {
@@ -21,17 +27,36 @@ p {
 }
 
 /* Better heading hierarchy */
-h1 { @apply text-4xl md:text-5xl font-extralight mb-4; }
-h2 { @apply text-xl md:text-2xl font-semibold mb-3; }
-h3 { @apply text-xl md:text-2xl font-normal mb-2; }
-h4 { @apply text-lg md:text-xl font-semibold mb-2; }
+h1 {
+  @apply text-4xl md:text-5xl font-extralight mb-4;
+}
+
+h2 {
+  @apply text-xl md:text-2xl font-semibold mb-3;
+}
+
+h3 {
+  @apply text-xl md:text-2xl font-normal mb-2;
+}
+
+h4 {
+  @apply text-lg md:text-xl font-semibold mb-2;
+}
 
 /* Header nav links */
-.site-nav a { @apply text-[#063f0e] hover:text-[#063f0e]; }
+.site-nav a {
+  @apply text-[#063f0e] hover:text-[#063f0e];
+}
 
 /* Hide scrollbars utility while keeping scroll behavior */
-.no-scrollbar { scrollbar-width: none; -ms-overflow-style: none; }
-.no-scrollbar::-webkit-scrollbar { display: none; }
+.no-scrollbar {
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
 
 /* Image-text layout - Enhanced with better spacing and shadows */
 .image-text {
@@ -41,7 +66,8 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
   align-items: center;
   gap: 2.5rem;
   border-radius: 8px;
-  border-left: 5px solid #064d10; /* Darker, more distinguished green */
+  border-left: 5px solid #064d10;
+  /* Darker, more distinguished green */
 }
 
 .image-text img {
@@ -59,7 +85,7 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
 }
 
 /* Page container helper - More breathing room */
-.container-6xl { 
+.container-6xl {
   @apply mx-auto max-w-6xl;
   padding-left: 1.5rem;
   padding-right: 1.5rem;
@@ -84,7 +110,8 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
   left: 0;
   right: 0;
   z-index: 40;
-  background: #fafbfc; /* Warmer, less stark background */
+  background: #fafbfc;
+  /* Warmer, less stark background */
   max-width: 72rem;
   margin-left: auto;
   margin-right: auto;
@@ -92,7 +119,8 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
   padding-right: 1.5rem;
   padding-top: 0.5rem;
   padding-bottom: 0.5rem;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08); /* Softer, more professional shadow */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  /* Softer, more professional shadow */
 }
 
 @media (min-width: 768px) {
@@ -103,7 +131,9 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
 }
 
 @media (max-width: 768px) {
-  .sticky-h1 { top: 76px; }
+  .sticky-h1 {
+    top: 76px;
+  }
 }
 
 /* News and updates layout - Enhanced spacing and shadows */
@@ -123,8 +153,10 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
 .news-item {
   @apply bg-white rounded-lg;
   padding: 2rem;
-  border-left: 5px solid #064d10; /* Darker green for more distinction */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08); /* Softer, more elevated shadow */
+  border-left: 5px solid #064d10;
+  /* Darker green for more distinction */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+  /* Softer, more elevated shadow */
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -221,42 +253,44 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
 /* Mobile improvements - Better touch targets and readability */
 @media (max-width: 768px) {
   html {
-    font-size: 18px; /* Larger base font for mobile */
+    font-size: 18px;
+    /* Larger base font for mobile */
   }
-  
+
   .news-grid {
     grid-template-columns: 1fr;
     gap: 1.5rem;
   }
-  
+
   .news-item {
     padding: 1.5rem;
   }
-  
+
   .tab-header {
     flex-direction: column;
   }
-  
+
   .tab-button {
     border-right: none;
     border-bottom: 2px solid #e5e7eb;
-    padding: 1.25rem 1.5rem; /* Larger touch targets */
+    padding: 1.25rem 1.5rem;
+    /* Larger touch targets */
     font-size: 1.1rem;
   }
-  
+
   .tab-button:last-child {
     border-bottom: none;
   }
-  
+
   .tab-content {
     padding: 1.5rem;
   }
-  
+
   .image-text {
     flex-direction: column;
     padding: 1.5rem;
   }
-  
+
   .image-text img {
     width: 100%;
     max-width: 400px;
@@ -266,10 +300,12 @@ h4 { @apply text-lg md:text-xl font-semibold mb-2; }
 
 /* Touch device improvements */
 @media (hover: none) and (pointer: coarse) {
+
   .tab-button,
   button,
   a {
-    min-height: 44px; /* Minimum touch target size */
+    min-height: 44px;
+    /* Minimum touch target size */
     min-width: 44px;
   }
 }

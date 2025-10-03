@@ -24,7 +24,7 @@ export default function Page() {
     if (tabParam && tabs.some(tab => tab.id === tabParam)) {
       setActiveTab(tabParam as typeof tabs[number]['id']);
     }
-  }, [searchParams]);
+  }, [searchParams, tabs]);
   
   // Search state
   const [searchTerm, setSearchTerm] = useState('');
