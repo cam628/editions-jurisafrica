@@ -1,0 +1,46 @@
+{
+  "themes": [
+    "Droit des sociétés",
+    "Droit commercial",
+    "Droit des obligations",
+    "Droit de la propriété intellectuelle",
+    "Droit du travail",
+    "Droit fiscal",
+    "Droit pénal",
+    "Droit administratif",
+    "Droit constitutionnel",
+    "Droit international public",
+    "Droit international privé",
+    "Droit de l'environnement",
+    "Droit de la santé",
+    "Droit foncier",
+    "Droit des investissements",
+    "Droit bancaire",
+    "Droit des assurances",
+    "Droit de la concurrence",
+    "Droit des contrats",
+    "Droit des biens",
+    "Droit de la famille",
+    "Droit des successions",
+    "Droit des personnes",
+    "Droit des mineurs",
+    "Droit de la consommation",
+    "Droit des transports",
+    "Droit maritime",
+    "Droit aérien",
+    "Droit des télécommunications",
+    "Droit de l'énergie"
+  ],
+  "articles": [
+    {
+      "id": 1,
+      "titre": "Exemple d'article - Remplacez par le vrai titre",
+      "auteur": "Nom de l'auteur",
+      "annee": 2024,
+      "numero": "PENANT 925",
+      "pages": "15-25",
+      "theme": "Droit des sociétés",
+      "resume": "Résumé de l'article en quelques lignes..."
+    }
+  ]
+}
