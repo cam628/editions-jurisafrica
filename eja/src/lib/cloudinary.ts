@@ -23,15 +23,16 @@ export const CLOUDINARY_CONFIG = {
 /**
  * Upload a file to Cloudinary
  * @param file - The file to upload
- * @returns Promise with the secure URL of the uploaded file
+ * @returns Promise with the secure URL of the uploaded file (with download flag)
  */
 export async function uploadToCloudinary(file: File): Promise<string> {
   const formData = new FormData();
   formData.append('file', file);
   formData.append('upload_preset', CLOUDINARY_CONFIG.UPLOAD_PRESET);
   
+  // Use 'raw' resource type for PDFs and documents (not 'auto')
   const response = await fetch(
-    `${CLOUDINARY_CONFIG.UPLOAD_URL}/${CLOUDINARY_CONFIG.CLOUD_NAME}/auto/upload`,
+    `${CLOUDINARY_CONFIG.UPLOAD_URL}/${CLOUDINARY_CONFIG.CLOUD_NAME}/raw/upload`,
     {
       method: 'POST',
       body: formData
@@ -43,6 +44,13 @@ export async function uploadToCloudinary(file: File): Promise<string> {
   }
   
   const data = await response.json();
-  return data.secure_url;
+  
+  // Add fl_attachment flag to force download instead of inline display
+  // This makes the link work properly when clicked
+  const url = data.secure_url;
+  const urlParts = url.split('/upload/');
+  const downloadUrl = `${urlParts[0]}/upload/fl_attachment/${urlParts[1]}`;
+  
+  return downloadUrl;
 }
 

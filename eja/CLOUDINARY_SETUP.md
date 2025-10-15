@@ -101,6 +101,8 @@ nom_fichier: mon_article.pdf
 
 **Pour télécharger le fichier:** Cliquez simplement sur le lien `fichier_url` dans l'email!
 
+**Note:** Les liens générés incluent automatiquement le flag `fl_attachment` qui force le téléchargement du fichier au lieu d'essayer de l'afficher dans le navigateur. Cela garantit que les PDF/DOCX s'ouvrent correctement.
+
 ---
 
 ## 🔧 Options Avancées (Optionnel)
@@ -180,6 +182,15 @@ Pour éviter les uploads non autorisés:
 ### L'email ne contient pas le lien
 - Vérifiez la console du navigateur pour les erreurs
 - Vérifiez que Formspree reçoit bien le champ `fichier_url`
+
+### Le lien Cloudinary ne fonctionne pas (erreur ou ne s'ouvre pas)
+- ✅ **CORRIGÉ** - Le code utilise maintenant `raw/upload` au lieu de `auto/upload`
+- ✅ Le flag `fl_attachment` est automatiquement ajouté pour forcer le téléchargement
+- Si vous avez encore des problèmes:
+  1. Allez sur Cloudinary Dashboard > Media Library
+  2. Trouvez le fichier
+  3. Cliquez sur les trois points (...) > "Copy URL"
+  4. Utilisez cette URL directe
 
 ---
 
