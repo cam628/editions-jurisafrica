@@ -210,7 +210,7 @@ function PenantContent() {
                   <div className="flex gap-6">
                     <div className="flex flex-col gap-4">
                       <Image
-                        src="/penant-926-2025-janvier-mars_orig.jpg"
+                        src="/penant-928-2025-juillet-septembre_orig.jpg"
                         alt="Couverture du Penant"
                         width={400}
                         height={300}
@@ -218,7 +218,7 @@ function PenantContent() {
                         priority
                       />
                       <Image
-                        src="/penant-926-2025-janvier-mars-sommaire_orig.jpg"
+                        src="/penant-928-2025-juillet-septembre-sommaire_orig.jpg"
                         alt="Sommaire du Penant"
                         width={400}
                         height={300}
@@ -227,42 +227,23 @@ function PenantContent() {
                       />
                     </div>
                      <div className="text-content flex-1 space-y-4">
-                       <p><strong>JANVIER-MARS 2025, Nº926</strong></p>
-                       <p><strong>L'APPARENCE EN DROIT OHADA DES SOCIÉTÉS COMMERCIALES</strong></p>
-                       <p>par Dr Herline Idèle SILIENOU, Maître-Assistant CAMES, Chargée de
-                         Cours, FSJP-Université de Dschang . . . 5</p>
-                       <p><strong>SOLILOQUE SUR LA PROTECTION DE L'ACTIONNAIRE MINORITAIRE EN DROIT DE L'OHADA</strong></p>
-                       <p>par Souleymane TOE, Agrégé des facultés de droit, Université Thomas
-                         SANKARA, B. Arsène BATIONO, Docteur en droit privé, Université
-                         Thomas SANKARA, Florent OUEINA, Docteur en droit privé, Université de
-                         Perpignan Via Domitia  . . . 33</p>
-                       <p><strong>LA PROBLÉMATIQUE DU MAINTIEN PAR LE DROIT OHADA, DES
-                         SOCIÉTÉS DE PERSONNES : CAS SPÉCIFIQUE DE LA SOCIÉTÉ EN
-                         NOM COLLECTIF ET DE LA SOCIÉTÉ EN COMMANDITE SIMPLE</strong></p>
-                       <p>par Charles MBEBI, Ph/D en Droit privé, Chargé de cours à la Faculté des
-                         Sciences Juridiques et Politiques de l'Université de Douala (Cameroun) . .  . 59</p>
-                       <p><strong>LES PRÊTS GARANTIS PAR L'ÉTAT AU CAMEROUN : COMMENTAIRE
-                         DE L'ARRÊTÉ Nº00358/MINFI DU 28 AVRIL 2022 FIXANT LES CONDITIONS
-                         D'OCTROI ET DE MISE EN OEUVRE DE LA GARANTIE DE
-                         L'ÉTAT AUX ÉTABLISSEMENTS PUBLICS ET ENTREPRISES PUBLIQUES
-                         ET PRIVÉES AU TITRE D'EMPRUNTS INTÉRIEURS POUR
-                         L'EXERCICE 2022</strong></p>
-                       <p>par Christian Roméo ANOUKAHA SATEU, Dr./Ph.D. en Droit privé à
-                         l'Université de Paris I Panthéon Sorbonne, Assistant à la Faculté des Sciences Juridiques et Politiques de l'Université de Dschang
-                         Anoukahachristian@gmail.com . . . 97</p>
-                       <p><strong>LA THÉORIE DE L'IMPRÉVISION DANS LE PROJET DE TEXTE UNIFORME
-                         PORTANT DROIT GÉNÉRAL DES OBLIGATIONS DANS L'ESPACE
-                         OHADA</strong></p>
-                       <p>par Francis NKEA NDZIGUE, Maître Assistant à la Faculté de droit et des
-                         sciences économiques de l'Université OMAR BONGO du Gabon, Ancien
-                         Ministre de la Justice du Gabon . . . 117</p>
-                       <p><strong>LA RSE COMME TRANSITION DANS L'ENCADREMENT DES INVESTISSEMENTS (CAS DE L'OHADA)</strong></p>
-                       <p>par Andréas Nicodème LOEMBA, Étudiant à la Maitrise en recherche à
-                         l'Université de Sherbrooke (Canada). . . 140</p>
-                       <p><strong>BIBLIOGRAPHIE</strong></p>
-                       <p><strong>LA RESPONSABILITÉ DES GRANDES ENTREPRISES EN MATIÈRE
-                         SOCIÉTALE ET ENVIRONNEMENTALE À L'AUNE DU DEVOIR DE VIGILANCE.
-                         (ANALYSE COMPARÉE DES DROITS FRANÇAIS ET OHADA).</strong> . . . 163</p>
+                       <p><strong>JUILLET-SEPTEMBRE 2025, Nº928</strong></p>
+                       <p><strong>LA NÉGOCIATION ET LES CONVENTIONS MINIÈRES</strong></p>
+                       <p>par Gaorang Wangkari WAIROU, Docteur/Ph.D en Droit Privé de l'Université de Maroua (Cameroun), Enseignant vacataire à l'Université de Garoua (Cameroun) . . . 5</p>
+                       <p><strong>CONDITIONS DE RECEVABILITÉ DU RECOURS EN CASSATION DEVANT LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE À LA LUMIÈRE DE LA PRATIQUE JURISPRUDENTIELLE</strong></p>
+                       <p>par Jules MASUKU AYIKABA, Docteur en droit et détenteur d'un LL.M. en droit des affaires de l'Université allemande Julius-Maximilians-Universität Würzburg, Chargé de cours à l'Université de Kikwit (RDC) . . . 29</p>
+                       <p><strong>LA CONSULTATION ÉCRITE EN DROIT OHADA</strong></p>
+                       <p>par Dr. Mariame ZERBO ép. HIEN, Maître-Assistante à l'UFR/SJP, Université Thomas SANKARA . . . 73</p>
+                       <p><strong>LE PRINCIPE D'INDÉPENDANCE DE LA GARANTIE AUTONOME ET ORDRE PUBLIC EN DROIT OHADA</strong></p>
+                       <p>par Malick Oluchegoun FALOLA, Docteur en Droit privé, Assistant à la Faculté de Droit et de Science politique, Université d'Abomey-Calavi (Bénin) . . . 105</p>
+                       <p><strong>ERREMENTS DE LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE DE L'OHADA AUTOUR DE LA QUALIFICATION JURIDIQUE DES FIGURES D'ALLIAGE DU CAUTIONNEMENT ET DE L'HYPOTHEQUE</strong></p>
+                       <p>par Thierry Noël KANCHOP, Maître de Conférences à la FSJP de l'Université de Yaoundé II (Cameroun) . . . 136</p>
+                       <p><strong>LE PRIVILÈGE DE LA CONCILIATION DE L'ARTICLE 5-11 DE L'AUPPCAP</strong></p>
+                       <p>par Christian Roméo ANOUKAHA SATEU, Dr/Ph.D. en Droit privé à l'Université de Paris I Panthéon Sorbonne, Assistant à la Faculté des Sciences Juridiques et Politiques de l'Université de Dschang . . . 153</p>
+                       <p><strong>LE DROIT MUSULMAN DES AFFAIRES: OUTIL DE FINANCEMENT DES TPE/PME DANS LA ZONE OHADA?</strong></p>
+                       <p>par Edouard-Robert AQUEREBURU, Avocat à la Cour, Docteur en Droit Privé et Sciences Criminelles, Conseil en Stratégies et Partenariats Publics Privés, Chargé d'Enseignement en Faculté de Droit . . . 175</p>
+                       <p><strong>L'INTÉGRATION DE L'INTELLIGENCE ARTIFICIELLE DANS LA COMMANDE PUBLIQUE AU NIVEAU DES PAYS AFRICAINS: QUELS APPORTS?</strong></p>
+                       <p>par Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc . . . 185</p>
                   </div>
                 </div>
               </div>

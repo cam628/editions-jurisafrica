@@ -4235,6 +4235,150 @@ export const articlesData = {
       numero: 873,
       pages: "440",
       theme: "DROIT FONCIER , FORESTIER ET DROIT DE L'ENVIRONNEMENT"
+    },
+    {
+      id: 468,
+      titre: "REGARD SYNOPTIQUE SUR LA PROCÉDURE DE NOTIFICATION D'UNE OPÉRATION DE CONCENTRATION EN DROIT COMMUNAUTAIRE CEMAC",
+      auteur: "Hyacinthe FANSI, Avocat au Barreau du Cameroun, NFM Avocats Associés",
+      annee: 2025,
+      numero: 927,
+      pages: "5",
+      theme: "DROIT COMMUNAUTAIRE : UEMOA et CEMAC"
+    },
+    {
+      id: 469,
+      titre: "LIBRES PROPOS SUR L'EVOLUTION DE LA NOTION DE CAUSE EN DROIT CONTEMPORAIN DES CONTRATS",
+      auteur: "Mana YALLA, Docteur/Ph.D en droit privé de l'Université de Maroua, Cameroun, Enseignant à l'ISD de Maroua",
+      annee: 2025,
+      numero: 927,
+      pages: "29",
+      theme: "DROIT DES CONTRATS"
+    },
+    {
+      id: 470,
+      titre: "LA RÉALISATION DES SURETES POUR SOI ET DES SURETES POUR AUTRUI DANS LE DROIT UNIFORME OHADA",
+      auteur: "Souleymane TOE, Agrégé de droit privé et sciences criminelles, Professeur titulaire à l'Université Thomas SANKARA, Mon-espoir MFINI, Membre du laboratoire THEMISUM, Enseignant à Université d'Angers - Faculté de droit",
+      annee: 2025,
+      numero: 927,
+      pages: "47",
+      theme: "SURETES"
+    },
+    {
+      id: 471,
+      titre: "LIBRES PROPOS SUR LE SACRIFICE DE LA CAUTION DE DROIT OHADA",
+      auteur: "Jean-Gaspard MBOUEME, Docteur/Ph.D en droit privé, Enseignant-chercheur, Chargé de cours à la FSJP de l'Université de Dschang",
+      annee: 2025,
+      numero: 927,
+      pages: "62",
+      theme: "SURETES"
+    },
+    {
+      id: 472,
+      titre: "LES FLUCTUATIONS SUR LE POINT DE DÉPART DE LA PERSONNALITE JURIDIQUE D'UNE SOCIÉTÉ COMMERCIALE DANS LE DROIT OHADA",
+      auteur: "Zakari NJUTAPVOUI, Maître de conférences, Université de Douala",
+      annee: 2025,
+      numero: 927,
+      pages: "84",
+      theme: "DROIT DES SOCIETES COMMERCIALES"
+    },
+    {
+      id: 473,
+      titre: "LA PLACE DE L'INFORMATION EN PÉRIODE DE DIFFICULTÉS DANS LES SOCIÉTÉS COMMERCIALES OHADA",
+      auteur: "Djeuna ETIENNE, PHD en droit des affaires, Chargé de cours à l'Université de Bamenda, Cameroun",
+      annee: 2025,
+      numero: 927,
+      pages: "103",
+      theme: "DROIT DES SOCIETES COMMERCIALES"
+    },
+    {
+      id: 474,
+      titre: "SOLILOQUE SUR LES INOVATIONS EN DROIT OHADA DES SAISIES MOBILIÈRES",
+      auteur: "Pr. Robert ASSONTSA, Professeur titulaire de droit privé et sciences criminelles, FSJP-Université de Dschang",
+      annee: 2025,
+      numero: 927,
+      pages: "119",
+      theme: "RECOUVREMENT DE CREANCES ET VOIES D'EXECUTION"
+    },
+    {
+      id: 475,
+      titre: "FONCTION PRÉVENTIVE DE LA RESPONSABILITÉ CIVILE SANS FAUTE LIÉE AUX RISQUES ESG DES ACTIVITÉS MINIÈRES ET PÉTROLIERES EN RÉPUBLIQUE DÉMOCRATIQUE DU CONGO",
+      auteur: "Christian BYAOMBE MALUMALU, Doctorant à l'Université catholique de Louvain, Assistant à l'Université officielle de Bukavu, Chercheur au Centre d'expertise en gestion minière de l'Université catholique de Bukavu, Avocat au Barreau du Sud-Kivu",
+      annee: 2025,
+      numero: 927,
+      pages: "142",
+      theme: "RESPONSABILITE CIVILE"
+    },
+    {
+      id: 476,
+      titre: "LA NÉGOCIATION ET LES CONVENTIONS MINIÈRES",
+      auteur: "Gaorang Wangkari WAIROU, Docteur/Ph.D en Droit Privé de l'Université de Maroua (Cameroun), Enseignant vacataire à l'Université de Garoua (Cameroun)",
+      annee: 2025,
+      numero: 928,
+      pages: "5",
+      theme: "DROIT MINIER, PETROLIER ET DES RESSOURCES NATURELLES"
+    },
+    {
+      id: 477,
+      titre: "CONDITIONS DE RECEVABILITÉ DU RECOURS EN CASSATION DEVANT LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE À LA LUMIÈRE DE LA PRATIQUE JURISPRUDENTIELLE",
+      auteur: "Jules MASUKU AYIKABA, Docteur en droit et détenteur d'un LL.M. en droit des affaires de l'Université allemande Julius-Maximilians-Universität Würzburg, Chargé de cours à l'Université de Kikwit (RDC)",
+      annee: 2025,
+      numero: 928,
+      pages: "29",
+      theme: "PROCEDURE CIVILE ET ORGANISATION JUDICIAIRE"
+    },
+    {
+      id: 478,
+      titre: "LA CONSULTATION ÉCRITE EN DROIT OHADA",
+      auteur: "Dr. Mariame ZERBO ép. HIEN, Maître-Assistante à l'UFR/SJP, Université Thomas SANKARA",
+      annee: 2025,
+      numero: 928,
+      pages: "73",
+      theme: "DROIT DES INSTITUTIONS COMMUNAUTAIRES (OHADA) ET NATIONALES"
+    },
+    {
+      id: 479,
+      titre: "LE PRINCIPE D'INDÉPENDANCE DE LA GARANTIE AUTONOME ET ORDRE PUBLIC EN DROIT OHADA",
+      auteur: "Malick Oluchegoun FALOLA, Docteur en Droit privé, Assistant à la Faculté de Droit et de Science politique, Université d'Abomey-Calavi (Bénin)",
+      annee: 2025,
+      numero: 928,
+      pages: "105",
+      theme: "SURETES"
+    },
+    {
+      id: 480,
+      titre: "ERREMENTS DE LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE DE L'OHADA AUTOUR DE LA QUALIFICATION JURIDIQUE DES FIGURES D'ALLIAGE DU CAUTIONNEMENT ET DE L'HYPOTHEQUE",
+      auteur: "Thierry Noël KANCHOP, Maître de Conférences à la FSJP de l'Université de Yaoundé II (Cameroun)",
+      annee: 2025,
+      numero: 928,
+      pages: "136",
+      theme: "SURETES"
+    },
+    {
+      id: 481,
+      titre: "LE PRIVILÈGE DE LA CONCILIATION DE L'ARTICLE 5-11 DE L'AUPPCAP",
+      auteur: "Christian Roméo ANOUKAHA SATEU, Dr/Ph.D. en Droit privé à l'Université de Paris I Panthéon Sorbonne, Assistant à la Faculté des Sciences Juridiques et Politiques de l'Université de Dschang",
+      annee: 2025,
+      numero: 928,
+      pages: "153",
+      theme: "PROCEDURES COLLECTIVES"
+    },
+    {
+      id: 482,
+      titre: "LE DROIT MUSULMAN DES AFFAIRES: OUTIL DE FINANCEMENT DES TPE/PME DANS LA ZONE OHADA?",
+      auteur: "Edouard-Robert AQUEREBURU, Avocat à la Cour, Docteur en Droit Privé et Sciences Criminelles, Conseil en Stratégies et Partenariats Publics Privés, Chargé d'Enseignement en Faculté de Droit",
+      annee: 2025,
+      numero: 928,
+      pages: "175",
+      theme: "DROIT COMMERCIAL"
+    },
+    {
+      id: 483,
+      titre: "L'INTÉGRATION DE L'INTELLIGENCE ARTIFICIELLE DANS LA COMMANDE PUBLIQUE AU NIVEAU DES PAYS AFRICAINS: QUELS APPORTS?",
+      auteur: "Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc",
+      annee: 2025,
+      numero: 928,
+      pages: "185",
+      theme: "DROIT DES ENTREPRISES PUBLIQUES ET PRIVATISATIONS"
     }
   ]
 };
