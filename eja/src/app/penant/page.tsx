@@ -26,6 +26,36 @@ function PenantContent() {
     }
   }, [searchParams, tabs]);
   
+  // Set French validation messages
+  useEffect(() => {
+    const inputs = document.querySelectorAll('input[required], select[required], textarea[required], input[type="checkbox"][required]');
+    inputs.forEach((input) => {
+      input.addEventListener('invalid', function(e) {
+        e.preventDefault();
+        const target = e.target as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+        if (target.validity.valueMissing) {
+          if (target.type === 'checkbox') {
+            target.setCustomValidity('Veuillez cocher cette case.');
+          } else if (target.type === 'file') {
+            target.setCustomValidity('Veuillez sélectionner un fichier.');
+          } else {
+            target.setCustomValidity('Veuillez remplir ce champ.');
+          }
+        } else if (target.validity.typeMismatch && target.type === 'email') {
+          target.setCustomValidity('Veuillez entrer une adresse email valide.');
+        }
+      });
+      input.addEventListener('input', function(e) {
+        const target = e.target as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+        target.setCustomValidity('');
+      });
+      input.addEventListener('change', function(e) {
+        const target = e.target as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+        target.setCustomValidity('');
+      });
+    });
+  }, [activeTab]);
+  
   // Search state
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedYear, setSelectedYear] = useState('');

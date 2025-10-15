@@ -1,6 +1,6 @@
 'use client';
 
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { FORMSPREE_CONTACT_ENDPOINT } from '@/lib/web3forms';
 
 export default function Page() {
@@ -14,6 +14,26 @@ export default function Page() {
   });
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
+
+  // Set French validation messages
+  useEffect(() => {
+    const inputs = document.querySelectorAll('input[required], select[required], textarea[required]');
+    inputs.forEach((input) => {
+      input.addEventListener('invalid', function(e) {
+        e.preventDefault();
+        const target = e.target as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+        if (target.validity.valueMissing) {
+          target.setCustomValidity('Veuillez remplir ce champ.');
+        } else if (target.validity.typeMismatch && target.type === 'email') {
+          target.setCustomValidity('Veuillez entrer une adresse email valide.');
+        }
+      });
+      input.addEventListener('input', function(e) {
+        const target = e.target as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
+        target.setCustomValidity('');
+      });
+    });
+  }, []);
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>) => {
     const { name, value } = e.target;
