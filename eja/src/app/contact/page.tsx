@@ -20,7 +20,6 @@ export default function Page() {
     const inputs = document.querySelectorAll('input[required], select[required], textarea[required]');
     inputs.forEach((input) => {
       input.addEventListener('invalid', function(e) {
-        e.preventDefault();
         const target = e.target as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
         if (target.validity.valueMissing) {
           target.setCustomValidity('Veuillez remplir ce champ.');

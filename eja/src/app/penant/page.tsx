@@ -31,7 +31,6 @@ function PenantContent() {
     const inputs = document.querySelectorAll('input[required], select[required], textarea[required], input[type="checkbox"][required]');
     inputs.forEach((input) => {
       input.addEventListener('invalid', function(e) {
-        e.preventDefault();
         const target = e.target as HTMLInputElement | HTMLSelectElement | HTMLTextAreaElement;
         if (target.validity.valueMissing) {
           if (target.type === 'checkbox') {
