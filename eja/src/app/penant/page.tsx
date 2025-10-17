@@ -208,21 +208,21 @@ function PenantContent() {
               {activeTab === 'dernier' && (
                 <div className="text-[#063f0e] pt-6">
                   <div className="flex gap-6 flex-col md:flex-row">
-                    {/* Left column: Photo (smallest) + Sommaire (biggest) */}
-                    <div className="flex flex-col gap-4 md:w-[500px]">
+                    {/* Left column: Both images same small size */}
+                    <div className="flex flex-col gap-4 md:w-[220px]">
                       <Image
                         src="/penant-928-2025-juillet-septembre_orig.jpg"
                         alt="Couverture du Penant"
                         width={200}
                         height={280}
-                        className="rounded shadow max-w-[200px] h-auto"
+                        className="rounded shadow w-full h-auto"
                         priority
                       />
                       <Image
                         src="/penant-928-2025-juillet-septembre-sommaire_orig.jpg"
                         alt="Sommaire du Penant"
-                        width={700}
-                        height={900}
+                        width={200}
+                        height={280}
                         className="rounded shadow w-full h-auto"
                         priority
                       />
