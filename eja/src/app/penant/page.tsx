@@ -208,21 +208,21 @@ function PenantContent() {
               {activeTab === 'dernier' && (
                 <div className="text-[#063f0e] pt-6">
                   <div className="flex gap-6 flex-col md:flex-row">
-                    {/* Left column: Photo (small) + Sommaire (large) */}
-                    <div className="flex flex-col gap-4 md:w-[400px]">
+                    {/* Left column: Photo (smallest) + Sommaire (biggest) */}
+                    <div className="flex flex-col gap-4 md:w-[500px]">
                       <Image
                         src="/penant-928-2025-juillet-septembre_orig.jpg"
                         alt="Couverture du Penant"
-                        width={250}
-                        height={350}
-                        className="rounded shadow w-full h-auto"
+                        width={200}
+                        height={280}
+                        className="rounded shadow max-w-[200px] h-auto"
                         priority
                       />
                       <Image
                         src="/penant-928-2025-juillet-septembre-sommaire_orig.jpg"
                         alt="Sommaire du Penant"
-                        width={600}
-                        height={800}
+                        width={700}
+                        height={900}
                         className="rounded shadow w-full h-auto"
                         priority
                       />
@@ -251,8 +251,8 @@ function PenantContent() {
                         <p>par Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc . . . 185</p>
                       </div>
                       
-                      {/* Comité Scientifique box - medium size */}
-                      <div className="bg-slate-50 border-l-4 border-[#063f0e] p-6 rounded shadow-sm">
+                      {/* Comité Scientifique box - second biggest (medium size) */}
+                      <div className="bg-slate-50 border-l-4 border-[#063f0e] p-6 rounded shadow-sm max-w-[400px]">
                         <h3 className="text-lg font-bold text-[#063f0e] mb-4">COMITÉ SCIENTIFIQUE</h3>
                         <div className="text-sm space-y-3">
                           <p><strong>Directeur de Publication</strong></p>
@@ -276,10 +276,10 @@ function PenantContent() {
                           </ul>
                         </div>
                       </div>
-                    </div>
                   </div>
                 </div>
-              )}
+              </div>
+            )}
 
             {activeTab === 'recherche' && (
               <div className="text-[#063f0e]">
