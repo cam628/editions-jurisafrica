@@ -279,7 +279,7 @@ function PenantContent() {
                           </ul>
                           
                           <p className="mt-4"><strong>Directeur de la Publication</strong></p>
-                          <p>M. Alain FÉNÉON - contact@feneon.org</p>
+                          <p>M. Alain FÉNÉON</p>
                         </div>
                       </div>
                     </div>
