@@ -248,6 +248,19 @@ h4 {
   margin-top: -2px;
 }
 
+/* Mobile inline accordion panels under each tab title */
+.tab-item {
+  width: 100%;
+}
+
+.tab-panel-mobile {
+  display: none;
+}
+
+.tab-content-desktop {
+  display: block;
+}
+
 /* Mobile improvements - Better touch targets and readability */
 @media (max-width: 768px) {
   html {
@@ -282,6 +295,15 @@ h4 {
 
   .tab-content {
     padding: 1.5rem;
+  }
+
+  /* On mobile: show inline panels and hide desktop content */
+  .tab-panel-mobile {
+    display: block;
+  }
+
+  .tab-content-desktop {
+    display: none;
   }
 
   .image-text {
