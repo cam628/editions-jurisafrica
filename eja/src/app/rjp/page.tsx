@@ -8,9 +8,9 @@ export default function Page() {
             <h1 className="sticky-h1 text-6xl font-extralight text-[#063f0e] select-none">
               Éditions JurisAfrica - RJP
             </h1>
-            {/* Spacer to offset fixed h1 height */}
+            {/* Spacer to offset fixed h1 height - increased for mobile */}
             
-          <div className="h-6 md:h-8" aria-hidden="true" />
+          <div className="h-20 md:h-8" aria-hidden="true" />
           <h2 className="mt-2 text-xl font-semibold text-[#063f0e]">
           LA REVUE JURIDIQUE & POLITIQUE DES ETATS FRANCOPHONES
           </h2>

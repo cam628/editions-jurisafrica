@@ -100,8 +100,8 @@ export default function Page() {
           <h1 className="sticky-h1 text-6xl font-extralight text-[#063f0e] select-none">
             Éditions JurisAfrica - CONTACT
           </h1>
-          {/* Spacer to offset fixed h1 height */}
-          <div className="h-6 md:h-8" aria-hidden="true" />
+          {/* Spacer to offset fixed h1 height - increased for mobile */}
+          <div className="h-20 md:h-8" aria-hidden="true" />
         </div>
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mt-8">

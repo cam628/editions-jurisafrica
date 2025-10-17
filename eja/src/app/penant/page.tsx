@@ -181,9 +181,9 @@ function PenantContent() {
           <h1 className="sticky-h1 text-6xl font-extralight text-[#063f0e] select-none">
             Éditions JurisAfrica - PENANT
           </h1>
-          {/* Spacer to offset fixed h1 height */}
+          {/* Spacer to offset fixed h1 height - increased for mobile */}
 
-          <div className="h-6 md:h-8" aria-hidden="true" />
+          <div className="h-20 md:h-8" aria-hidden="true" />
           <h2 className="mt-2 text-xl font-semibold text-[#063f0e]">
             ÉDITÉ DEPUIS 1891, LE PENANT EST LA PLUS ANCIENNE REVUE JURIDIQUE DE DROIT EN AFRIQUE.
           </h2>
@@ -207,9 +207,10 @@ function PenantContent() {
             <div className="tab-content">
               {activeTab === 'dernier' && (
                 <div className="text-[#063f0e] pt-6">
-                  <div className="flex gap-6 flex-col md:flex-row">
-                    {/* Left column: Both images same small size */}
-                    <div className="flex flex-col gap-4 md:w-[220px]">
+                  {/* 3-column layout: Photo (smallest) | Sommaire (biggest) | Comité (medium) */}
+                  <div className="flex gap-4 flex-col lg:flex-row">
+                    {/* Column 1: Photo (smallest - 200px) */}
+                    <div className="flex flex-col gap-4 lg:w-[200px]">
                       <Image
                         src="/penant-928-2025-juillet-septembre_orig.jpg"
                         alt="Couverture du Penant"
@@ -218,48 +219,30 @@ function PenantContent() {
                         className="rounded shadow w-full h-auto"
                         priority
                       />
+                    </div>
+                    
+                    {/* Column 2: Sommaire (biggest - 450px) */}
+                    <div className="flex flex-col gap-4 lg:w-[450px]">
                       <Image
                         src="/penant-928-2025-juillet-septembre-sommaire_orig.jpg"
                         alt="Sommaire du Penant"
-                        width={200}
-                        height={280}
+                        width={450}
+                        height={600}
                         className="rounded shadow w-full h-auto"
                         priority
                       />
                     </div>
                     
-                    {/* Right column: Articles + Comité Scientifique */}
-                    <div className="flex-1 space-y-6">
-                      {/* Articles list */}
-                      <div className="text-content space-y-4">
-                        <p><strong>JUILLET-SEPTEMBRE 2025, Nº928</strong></p>
-                        <p><strong>LA NÉGOCIATION ET LES CONVENTIONS MINIÈRES</strong></p>
-                        <p>par Gaorang Wangkari WAIROU, Docteur/Ph.D en Droit Privé de l'Université de Maroua (Cameroun), Enseignant vacataire à l'Université de Garoua (Cameroun) . . . 5</p>
-                        <p><strong>CONDITIONS DE RECEVABILITÉ DU RECOURS EN CASSATION DEVANT LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE À LA LUMIÈRE DE LA PRATIQUE JURISPRUDENTIELLE</strong></p>
-                        <p>par Jules MASUKU AYIKABA, Docteur en droit et détenteur d'un LL.M. en droit des affaires de l'Université allemande Julius-Maximilians-Universität Würzburg, Chargé de cours à l'Université de Kikwit (RDC) . . . 29</p>
-                        <p><strong>LA CONSULTATION ÉCRITE EN DROIT OHADA</strong></p>
-                        <p>par Dr. Mariame ZERBO ép. HIEN, Maître-Assistante à l'UFR/SJP, Université Thomas SANKARA . . . 73</p>
-                        <p><strong>LE PRINCIPE D'INDÉPENDANCE DE LA GARANTIE AUTONOME ET ORDRE PUBLIC EN DROIT OHADA</strong></p>
-                        <p>par Malick Oluchegoun FALOLA, Docteur en Droit privé, Assistant à la Faculté de Droit et de Science politique, Université d'Abomey-Calavi (Bénin) . . . 105</p>
-                        <p><strong>ERREMENTS DE LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE DE L'OHADA AUTOUR DE LA QUALIFICATION JURIDIQUE DES FIGURES D'ALLIAGE DU CAUTIONNEMENT ET DE L'HYPOTHEQUE</strong></p>
-                        <p>par Thierry Noël KANCHOP, Maître de Conférences à la FSJP de l'Université de Yaoundé II (Cameroun) . . . 136</p>
-                        <p><strong>LE PRIVILÈGE DE LA CONCILIATION DE L'ARTICLE 5-11 DE L'AUPPCAP</strong></p>
-                        <p>par Christian Roméo ANOUKAHA SATEU, Dr/Ph.D. en Droit privé à l'Université de Paris I Panthéon Sorbonne, Assistant à la Faculté des Sciences Juridiques et Politiques de l'Université de Dschang . . . 153</p>
-                        <p><strong>LE DROIT MUSULMAN DES AFFAIRES: OUTIL DE FINANCEMENT DES TPE/PME DANS LA ZONE OHADA?</strong></p>
-                        <p>par Edouard-Robert AQUEREBURU, Avocat à la Cour, Docteur en Droit Privé et Sciences Criminelles, Conseil en Stratégies et Partenariats Publics Privés, Chargé d'Enseignement en Faculté de Droit . . . 175</p>
-                        <p><strong>L'INTÉGRATION DE L'INTELLIGENCE ARTIFICIELLE DANS LA COMMANDE PUBLIQUE AU NIVEAU DES PAYS AFRICAINS: QUELS APPORTS?</strong></p>
-                        <p>par Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc . . . 185</p>
-                      </div>
-                      
-                      {/* Comité Scientifique box - second biggest (medium size) */}
-                      <div className="bg-slate-50 border-l-4 border-[#063f0e] p-6 rounded shadow-sm max-w-[400px]">
-                        <h3 className="text-lg font-bold text-[#063f0e] mb-4">COMITÉ SCIENTIFIQUE</h3>
-                        <div className="text-sm space-y-3">
+                    {/* Column 3: Comité Scientifique (medium - 320px) */}
+                    <div className="flex-1 lg:max-w-[320px]">
+                      <div className="bg-slate-50 border-l-4 border-[#063f0e] p-5 rounded shadow-sm">
+                        <h3 className="text-base font-bold text-[#063f0e] mb-3">COMITÉ SCIENTIFIQUE</h3>
+                        <div className="text-xs space-y-2">
                           <p><strong>Directeur de Publication</strong></p>
                           <p>Alain FÉNÉON, Avocat honoraire, Arbitre & Médiateur</p>
                           
-                          <p className="mt-4"><strong>Comité Scientifique</strong></p>
-                          <ul className="list-disc pl-6 space-y-1">
+                          <p className="mt-3"><strong>Comité Scientifique</strong></p>
+                          <ul className="list-disc pl-5 space-y-1">
                             <li>Professeur Joseph ISSA-SAYEGH, Agrégé de droit privé et de sciences criminelles, Université Gaston Berger (Sénégal)</li>
                             <li>Professeur Paul-Gérard POUGOUE, Agrégé de droit privé et de sciences criminelles, Université de Yaoundé II (Cameroun)</li>
                             <li>Professeur Pierre-Maurice DUPUY, Professeur émérite, Graduate Institute of International and Development Studies (Genève)</li>
@@ -267,8 +250,8 @@ function PenantContent() {
                             <li>Professeur Jacqueline LOHOUES-OBLE, Agrégée de droit public, Université Félix Houphouët-Boigny (Côte d'Ivoire)</li>
                           </ul>
                           
-                          <p className="mt-4"><strong>Comité de Rédaction</strong></p>
-                          <ul className="list-disc pl-6 space-y-1">
+                          <p className="mt-3"><strong>Comité de Rédaction</strong></p>
+                          <ul className="list-disc pl-5 space-y-1">
                             <li>Professeur Grégoire BAKANDEJA wa MPUNGU, Université de Kinshasa (RDC)</li>
                             <li>Professeur Robert NEMEDEU, Université de Dschang (Cameroun)</li>
                             <li>Professeur Souleymane TOE, Université Thomas Sankara (Burkina Faso)</li>
@@ -276,10 +259,31 @@ function PenantContent() {
                           </ul>
                         </div>
                       </div>
+                    </div>
+                  </div>
+                  
+                  {/* Articles list below the 3 columns */}
+                  <div className="text-content space-y-4 mt-6">
+                    <p><strong>JUILLET-SEPTEMBRE 2025, Nº928</strong></p>
+                    <p><strong>LA NÉGOCIATION ET LES CONVENTIONS MINIÈRES</strong></p>
+                    <p>par Gaorang Wangkari WAIROU, Docteur/Ph.D en Droit Privé de l'Université de Maroua (Cameroun), Enseignant vacataire à l'Université de Garoua (Cameroun) . . . 5</p>
+                    <p><strong>CONDITIONS DE RECEVABILITÉ DU RECOURS EN CASSATION DEVANT LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE À LA LUMIÈRE DE LA PRATIQUE JURISPRUDENTIELLE</strong></p>
+                    <p>par Jules MASUKU AYIKABA, Docteur en droit et détenteur d'un LL.M. en droit des affaires de l'Université allemande Julius-Maximilians-Universität Würzburg, Chargé de cours à l'Université de Kikwit (RDC) . . . 29</p>
+                    <p><strong>LA CONSULTATION ÉCRITE EN DROIT OHADA</strong></p>
+                    <p>par Dr. Mariame ZERBO ép. HIEN, Maître-Assistante à l'UFR/SJP, Université Thomas SANKARA . . . 73</p>
+                    <p><strong>LE PRINCIPE D'INDÉPENDANCE DE LA GARANTIE AUTONOME ET ORDRE PUBLIC EN DROIT OHADA</strong></p>
+                    <p>par Malick Oluchegoun FALOLA, Docteur en Droit privé, Assistant à la Faculté de Droit et de Science politique, Université d'Abomey-Calavi (Bénin) . . . 105</p>
+                    <p><strong>ERREMENTS DE LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE DE L'OHADA AUTOUR DE LA QUALIFICATION JURIDIQUE DES FIGURES D'ALLIAGE DU CAUTIONNEMENT ET DE L'HYPOTHEQUE</strong></p>
+                    <p>par Thierry Noël KANCHOP, Maître de Conférences à la FSJP de l'Université de Yaoundé II (Cameroun) . . . 136</p>
+                    <p><strong>LE PRIVILÈGE DE LA CONCILIATION DE L'ARTICLE 5-11 DE L'AUPPCAP</strong></p>
+                    <p>par Christian Roméo ANOUKAHA SATEU, Dr/Ph.D. en Droit privé à l'Université de Paris I Panthéon Sorbonne, Assistant à la Faculté des Sciences Juridiques et Politiques de l'Université de Dschang . . . 153</p>
+                    <p><strong>LE DROIT MUSULMAN DES AFFAIRES: OUTIL DE FINANCEMENT DES TPE/PME DANS LA ZONE OHADA?</strong></p>
+                    <p>par Edouard-Robert AQUEREBURU, Avocat à la Cour, Docteur en Droit Privé et Sciences Criminelles, Conseil en Stratégies et Partenariats Publics Privés, Chargé d'Enseignement en Faculté de Droit . . . 175</p>
+                    <p><strong>L'INTÉGRATION DE L'INTELLIGENCE ARTIFICIELLE DANS LA COMMANDE PUBLIQUE AU NIVEAU DES PAYS AFRICAINS: QUELS APPORTS?</strong></p>
+                    <p>par Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc . . . 185</p>
                   </div>
                 </div>
-              </div>
-            )}
+              )}
 
             {activeTab === 'recherche' && (
               <div className="text-[#063f0e]">
