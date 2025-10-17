@@ -10,6 +10,7 @@ const nav = [
   { href: '/penant', label: 'Le PENANT' },
   { href: '/ouvrages', label: 'Ouvrages' },
   { href: '/rjp', label: 'La R.J.P.' },
+  { href: '/comite', label: 'Comité' },
   { href: '/contributeurs', label: 'Contributeurs' },
   { href: '/contact', label: 'Contact' },
 ];

@@ -226,7 +226,7 @@ function PenantContent() {
                         priority
                       />
                     </div>
-                     <div className="text-content flex-1 space-y-4">
+                    <div className="text-content flex-1 space-y-4">
                        <p><strong>JUILLET-SEPTEMBRE 2025, Nº928</strong></p>
                        <p><strong>LA NÉGOCIATION ET LES CONVENTIONS MINIÈRES</strong></p>
                        <p>par Gaorang Wangkari WAIROU, Docteur/Ph.D en Droit Privé de l'Université de Maroua (Cameroun), Enseignant vacataire à l'Université de Garoua (Cameroun) . . . 5</p>
@@ -244,7 +244,35 @@ function PenantContent() {
                        <p>par Edouard-Robert AQUEREBURU, Avocat à la Cour, Docteur en Droit Privé et Sciences Criminelles, Conseil en Stratégies et Partenariats Publics Privés, Chargé d'Enseignement en Faculté de Droit . . . 175</p>
                        <p><strong>L'INTÉGRATION DE L'INTELLIGENCE ARTIFICIELLE DANS LA COMMANDE PUBLIQUE AU NIVEAU DES PAYS AFRICAINS: QUELS APPORTS?</strong></p>
                        <p>par Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc . . . 185</p>
+                       <p className="lg:hidden mt-4">
+                         <a 
+                           href="/comite" 
+                           className="text-[#063f0e] border-b-2 border-transparent hover:border-[#063f0e] transition-all duration-300"
+                         >
+                           Voir la liste complète du Comité
+                         </a>
+                       </p>
                   </div>
+                      {/* Comité teaser (desktop) */}
+                      <aside className="hidden lg:block w-80 shrink-0">
+                        <div className="bg-white p-4 rounded-lg shadow-sm border-l-4 border-[#063f0e]">
+                          <h4 className="text-base font-semibold mb-2">Comité scientifique</h4>
+                          <ul className="text-sm text-gray-700 space-y-1">
+                            <li>Pascal AGBOYIBOR</li>
+                            <li>Martial ΑΚΑΚΡΟ</li>
+                            <li>François ANOUKAHA</li>
+                            <li>Taoufik AZZOUZI</li>
+                            <li>Aziber DIDOT SAID ALGADI</li>
+                            <li>Olivier FILLE-LAMBIE</li>
+                          </ul>
+                          <a 
+                            href="/comite" 
+                            className="inline-block mt-3 text-[#063f0e] border-b-2 border-transparent hover:border-[#063f0e] transition-all duration-300"
+                          >
+                            Voir la liste complète
+                          </a>
+                        </div>
+                      </aside>
                 </div>
               </div>
             )}
