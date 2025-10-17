@@ -244,7 +244,7 @@ function PenantContent() {
                        <p>par Edouard-Robert AQUEREBURU, Avocat à la Cour, Docteur en Droit Privé et Sciences Criminelles, Conseil en Stratégies et Partenariats Publics Privés, Chargé d'Enseignement en Faculté de Droit . . . 175</p>
                        <p><strong>L'INTÉGRATION DE L'INTELLIGENCE ARTIFICIELLE DANS LA COMMANDE PUBLIQUE AU NIVEAU DES PAYS AFRICAINS: QUELS APPORTS?</strong></p>
                        <p>par Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc . . . 185</p>
-                       <p className="lg:hidden mt-4">
+                       <p className="mt-4">
                          <a 
                            href="/comite" 
                            className="text-[#063f0e] border-b-2 border-transparent hover:border-[#063f0e] transition-all duration-300"
@@ -265,12 +265,6 @@ function PenantContent() {
                             <li>Aziber DIDOT SAID ALGADI</li>
                             <li>Olivier FILLE-LAMBIE</li>
                           </ul>
-                          <a 
-                            href="/comite" 
-                            className="inline-block mt-3 text-[#063f0e] border-b-2 border-transparent hover:border-[#063f0e] transition-all duration-300"
-                          >
-                            Voir la liste complète
-                          </a>
                         </div>
                       </aside>
                 </div>
