@@ -1,7 +1,7 @@
 import { MetadataRoute } from 'next'
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = 'https://editions-jurisafrica-dju7.vercel.app'
+  const baseUrl = 'https://www.editionsjurisafrica.com'
   
   return [
     {

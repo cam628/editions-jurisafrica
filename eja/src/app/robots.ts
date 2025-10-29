@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: '/',
       disallow: ['/private/', '/admin/'],
     },
-    sitemap: 'https://editions-jurisafrica-dju7.vercel.app/sitemap.xml',
+    sitemap: 'https://www.editionsjurisafrica.com/sitemap.xml',
   }
 }
