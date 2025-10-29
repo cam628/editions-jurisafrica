@@ -237,12 +237,14 @@ function PenantContent() {
                       <p>par Eyango DJOMBE</p>
                       <p>L'associé unique </p>
                       <p>par Ghislain DJEUDJO TANKEU</p>
-                      <p>La faute et la responsabilité civile dans le projet de texte uniforme portant droit qénéral des obligations dans l'espace OHADA par Sylvie NGAMALEU DJUIKO</p>
+                      <p>La faute et la responsabilité civile dans le projet de texte uniforme portant droit qénéral des obligations dans l'espace OHADA </p>
+                      <p>par Sylvie NGAMALEU DJUIKO</p>
                       <p>Les obligations accessoires dans l'expédition de marchandises par route</p>
                       <p>par Hubert ENTJILIDI</p>
                       <p>La sécurité juridique des contrats électroniques: analyse a la lumière des législations des espaces UEMOA, CEMAC et CEDEAO</p>
                       <p>par Nadine Josianne BAKAM TITGOUM Epse DJEYA</p>
-                      <p>Réflexion sur l'intégration de la cyberjustice dans l'espace OHADA Dar GAORANG WANGKARI WAIKOU</p>
+                      <p>Réflexion sur l'intégration de la cyberjustice dans l'espace OHADA </p> 
+                      <p>par GAORANG WANGKARI WAIKOU</p>
                       <p>La traite des personnes et les nouvelles technologies de l'information et de la communication (NTIC): de l'effectivité de la convention de Budapest sur la cybercriminalité </p>
                       <p>par Jacques NSHIMIRIMANA</p>
                       <p>Triptyque sur le droit numérique en Afrique </p>
