@@ -235,25 +235,26 @@ function PenantContent() {
                       <p><strong>DOCTRINE</strong></p>
                       <p>La libre négociabilité des actions dans l'Acte Uniforme OHADA sur le droit des sociétés commerciales</p>
                       <p>par Eyango DJOMBE</p>
-                      <p>L'associé unique par Ghislain DJEUDJO TANKEU</p>
-                      <p>La faute et la responsabilité civile dans</p>
-                      <p>le projet de texte uniforme portant droit qénéral des obligations dans l'espace OHADA par Sylvie NGAMALEU DJUIKO</p>
+                      <p>L'associé unique </p>
+                      <p>par Ghislain DJEUDJO TANKEU</p>
+                      <p>La faute et la responsabilité civile dans le projet de texte uniforme portant droit qénéral des obligations dans l'espace OHADA par Sylvie NGAMALEU DJUIKO</p>
                       <p>Les obligations accessoires dans l'expédition de marchandises par route</p>
                       <p>par Hubert ENTJILIDI</p>
                       <p>La sécurité juridique des contrats électroniques: analyse a la lumière des législations des espaces UEMOA, CEMAC et CEDEAO</p>
-                      <p>par Nadine Josianne BAKAM TITGOUM</p>
-                      <p>Epse DJEYA</p>
+                      <p>par Nadine Josianne BAKAM TITGOUM Epse DJEYA</p>
                       <p>Réflexion sur l'intégration de la cyberjustice dans l'espace OHADA Dar GAORANG WANGKARI WAIKOU</p>
-                      <p>La traite des personnes et les nouvelles technologies de l'information et de la communication (NTIC): de l'effectivité de la convention de Budapest sur la cybercriminalité par Jacques NSHIMIRIMANA</p>
-                      <p>Triptyque sur le droit numérique en Afrique Sous la direction de M. Yvon Laurier NGOMBÉ</p>
-                      <p>PANORAMA I: AFRIQUE ANGLOPHONE par le Pr. ES Nwauche</p>
+                      <p>La traite des personnes et les nouvelles technologies de l'information et de la communication (NTIC): de l'effectivité de la convention de Budapest sur la cybercriminalité </p>
+                      <p>par Jacques NSHIMIRIMANA</p>
+                      <p>Triptyque sur le droit numérique en Afrique </p>
+                      <p>Sous la direction de M. Yvon Laurier NGOMBÉ</p>
+                      <p>PANORAMA I: AFRIQUE ANGLOPHONE </p>
+                      <p>par le Pr. ES Nwauche</p>
                       <p>PANORAMA II - AFRIQUE DU NORD</p>
                       <p>par Yvon Laurier NGOMBE</p>
                       <p>par Hanane RHARRABI</p>
                       <p>par Firmin KOUADIO</p>
                       <p>par Jean Peingdewiendé OUEDRAOGO</p>
-                      <p>PANORAMA III: L'ESPACE OHADA</p>
-                      <p>ET DE L'ESPACE OAPI</p>
+                      <p>PANORAMA III: L'ESPACE OHADA ET DE L'ESPACE OAPI</p>
                       <p>par Yvon Laurier NGOMBÉ</p>
                       <p>par Christian KPOLO</p>
                       <p>par Nilce EKANDZI</p>
