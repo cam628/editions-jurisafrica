@@ -8,11 +8,6 @@ const nextConfig: NextConfig = {
   async redirects() {
     return [
       {
-        source: '/lepenant',
-        destination: '/penant',
-        permanent: true, // 301 redirect
-      },
-      {
         source: '/lepenant.html',
         destination: '/penant',
         permanent: true, // 301 redirect

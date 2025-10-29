@@ -212,7 +212,7 @@ function PenantContent() {
                     {/* Column 1: Both Images stacked - smallest (200px) */}
                     <div className="flex flex-col gap-4 lg:w-[200px]">
                       <Image
-                        src="/penant-928-2025-juillet-septembre_orig.jpg"
+                        src="/penant-929-oct-dec-orig.jpg"
                         alt="Couverture du Penant"
                         width={200}
                         height={280}
@@ -220,7 +220,7 @@ function PenantContent() {
                         priority
                       />
                       <Image
-                        src="/penant-928-2025-juillet-septembre-sommaire_orig.jpg"
+                        src="/penant-929-oct-dec-som.jpg"
                         alt="Sommaire du Penant"
                         width={200}
                         height={280}
@@ -231,23 +231,33 @@ function PenantContent() {
                     
                     {/* Column 2: Articles list (Sommaire) - biggest (flexible) */}
                     <div className="flex-1 text-content space-y-4">
-                      <p><strong>JUILLET-SEPTEMBRE 2025, Nº928</strong></p>
-                      <p><strong>LA NÉGOCIATION ET LES CONVENTIONS MINIÈRES</strong></p>
-                      <p>par Gaorang Wangkari WAIROU, Docteur/Ph.D en Droit Privé de l'Université de Maroua (Cameroun), Enseignant vacataire à l'Université de Garoua (Cameroun) . . . 5</p>
-                      <p><strong>CONDITIONS DE RECEVABILITÉ DU RECOURS EN CASSATION DEVANT LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE À LA LUMIÈRE DE LA PRATIQUE JURISPRUDENTIELLE</strong></p>
-                      <p>par Jules MASUKU AYIKABA, Docteur en droit et détenteur d'un LL.M. en droit des affaires de l'Université allemande Julius-Maximilians-Universität Würzburg, Chargé de cours à l'Université de Kikwit (RDC) . . . 29</p>
-                      <p><strong>LA CONSULTATION ÉCRITE EN DROIT OHADA</strong></p>
-                      <p>par Dr. Mariame ZERBO ép. HIEN, Maître-Assistante à l'UFR/SJP, Université Thomas SANKARA . . . 73</p>
-                      <p><strong>LE PRINCIPE D'INDÉPENDANCE DE LA GARANTIE AUTONOME ET ORDRE PUBLIC EN DROIT OHADA</strong></p>
-                      <p>par Malick Oluchegoun FALOLA, Docteur en Droit privé, Assistant à la Faculté de Droit et de Science politique, Université d'Abomey-Calavi (Bénin) . . . 105</p>
-                      <p><strong>ERREMENTS DE LA COUR COMMUNE DE JUSTICE ET D'ARBITRAGE DE L'OHADA AUTOUR DE LA QUALIFICATION JURIDIQUE DES FIGURES D'ALLIAGE DU CAUTIONNEMENT ET DE L'HYPOTHEQUE</strong></p>
-                      <p>par Thierry Noël KANCHOP, Maître de Conférences à la FSJP de l'Université de Yaoundé II (Cameroun) . . . 136</p>
-                      <p><strong>LE PRIVILÈGE DE LA CONCILIATION DE L'ARTICLE 5-11 DE L'AUPPCAP</strong></p>
-                      <p>par Christian Roméo ANOUKAHA SATEU, Dr/Ph.D. en Droit privé à l'Université de Paris I Panthéon Sorbonne, Assistant à la Faculté des Sciences Juridiques et Politiques de l'Université de Dschang . . . 153</p>
-                      <p><strong>LE DROIT MUSULMAN DES AFFAIRES: OUTIL DE FINANCEMENT DES TPE/PME DANS LA ZONE OHADA?</strong></p>
-                      <p>par Edouard-Robert AQUEREBURU, Avocat à la Cour, Docteur en Droit Privé et Sciences Criminelles, Conseil en Stratégies et Partenariats Publics Privés, Chargé d'Enseignement en Faculté de Droit . . . 175</p>
-                      <p><strong>L'INTÉGRATION DE L'INTELLIGENCE ARTIFICIELLE DANS LA COMMANDE PUBLIQUE AU NIVEAU DES PAYS AFRICAINS: QUELS APPORTS?</strong></p>
-                      <p>par Salma ESSARDI, Docteur en Droit public (Université Hassan II, Mohammedia), Maroc . . . 185</p>
+                      <p><strong>OCTOBRE-DÉCEMBRE 2025, Nº929</strong></p>
+                      <p><strong>DOCTRINE</strong></p>
+                      <p>La libre négociabilité des actions dans l'Acte Uniforme OHADA sur le droit des sociétés commerciales</p>
+                      <p>par Eyango DJOMBE</p>
+                      <p>L'associé unique par Ghislain DJEUDJO TANKEU</p>
+                      <p>La faute et la responsabilité civile dans</p>
+                      <p>le projet de texte uniforme portant droit qénéral des obligations dans l'espace OHADA par Sylvie NGAMALEU DJUIKO</p>
+                      <p>Les obligations accessoires dans l'expédition de marchandises par route</p>
+                      <p>par Hubert ENTJILIDI</p>
+                      <p>La sécurité juridique des contrats électroniques: analyse a la lumière des législations des espaces UEMOA, CEMAC et CEDEAO</p>
+                      <p>par Nadine Josianne BAKAM TITGOUM</p>
+                      <p>Epse DJEYA</p>
+                      <p>Réflexion sur l'intégration de la cyberjustice dans l'espace OHADA Dar GAORANG WANGKARI WAIKOU</p>
+                      <p>La traite des personnes et les nouvelles technologies de l'information et de la communication (NTIC): de l'effectivité de la convention de Budapest sur la cybercriminalité par Jacques NSHIMIRIMANA</p>
+                      <p>Triptyque sur le droit numérique en Afrique Sous la direction de M. Yvon Laurier NGOMBÉ</p>
+                      <p>PANORAMA I: AFRIQUE ANGLOPHONE par le Pr. ES Nwauche</p>
+                      <p>PANORAMA II - AFRIQUE DU NORD</p>
+                      <p>par Yvon Laurier NGOMBE</p>
+                      <p>par Hanane RHARRABI</p>
+                      <p>par Firmin KOUADIO</p>
+                      <p>par Jean Peingdewiendé OUEDRAOGO</p>
+                      <p>PANORAMA III: L'ESPACE OHADA</p>
+                      <p>ET DE L'ESPACE OAPI</p>
+                      <p>par Yvon Laurier NGOMBÉ</p>
+                      <p>par Christian KPOLO</p>
+                      <p>par Nilce EKANDZI</p>
+                      <p>par Firmin KOUADIO</p>
                     </div>
                     
                     {/* Column 3: Comité Scientifique - medium (350px) */}
