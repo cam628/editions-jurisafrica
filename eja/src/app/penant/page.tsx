@@ -55,6 +55,15 @@ function PenantContent() {
     });
   }, [activeTab]);
   
+  // Close image lightbox with Escape key
+  useEffect(() => {
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === 'Escape') setLightboxSrc(null);
+    };
+    window.addEventListener('keydown', onKeyDown);
+    return () => window.removeEventListener('keydown', onKeyDown);
+  }, []);
+  
   // Search state
   const [searchTerm, setSearchTerm] = useState('');
   const [selectedYear, setSelectedYear] = useState('');
@@ -74,6 +83,8 @@ function PenantContent() {
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitMessage, setSubmitMessage] = useState('');
   const [uploadProgress, setUploadProgress] = useState('');
+  // Lightbox state to display enlarged images
+  const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
   
   // Filter articles
   const filteredArticles = articlesData.articles.filter(article => {
@@ -216,7 +227,8 @@ function PenantContent() {
                         alt="Couverture du Penant"
                         width={200}
                         height={280}
-                        className="rounded shadow w-full h-auto"
+                        className="rounded shadow w-full h-auto cursor-zoom-in hover:opacity-90 transition"
+                        onClick={() => setLightboxSrc('/penant-929-oct-dec-orig.jpg')}
                         priority
                       />
                       <Image
@@ -224,7 +236,8 @@ function PenantContent() {
                         alt="Sommaire du Penant"
                         width={200}
                         height={280}
-                        className="rounded shadow w-full h-auto"
+                        className="rounded shadow w-full h-auto cursor-zoom-in hover:opacity-90 transition"
+                        onClick={() => setLightboxSrc('/penant-929-oct-dec-som.jpg')}
                         priority
                       />
                     </div>
@@ -297,6 +310,34 @@ function PenantContent() {
                       </div>
                     </div>
                   </div>
+                  {/* Lightbox overlay */}
+                  {lightboxSrc && (
+                    <div
+                      className="fixed inset-0 bg-black/80 z-50 flex items-center justify-center p-4"
+                      onClick={() => setLightboxSrc(null)}
+                      role="dialog"
+                      aria-modal="true"
+                    >
+                      <button
+                        type="button"
+                        aria-label="Fermer"
+                        className="absolute top-4 right-4 text-white text-2xl"
+                        onClick={() => setLightboxSrc(null)}
+                      >
+                        ✕
+                      </button>
+                      <div className="max-w-[90vw] max-h-[90vh]">
+                        <Image
+                          src={lightboxSrc}
+                          alt="Agrandissement"
+                          width={1000}
+                          height={1400}
+                          className="w-auto h-auto max-w-[90vw] max-h-[90vh] rounded shadow-lg"
+                          priority
+                        />
+                      </div>
+                    </div>
+                  )}
                 </div>
               )}
 
