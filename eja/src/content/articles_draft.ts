@@ -4988,7 +4988,7 @@ export const articlesData = {
       },
       {
         id: 554,
-        titre: "PANORAMA I: AFRIQUE ANGLOPHONE",
+        titre: "TRIPTYQUE SUR LE DROIT NUMÉRIQUE EN AFRIQUE, Sous la direction de M. Yvon LAURIER NGOMBE; PANORAMA I: AFRIQUE ANGLOPHONE",
         auteur: "Enyinna Sodienye NWAUCHE, Professeur, Faculté de droit Nelson Mandela, Université de Fort Hare",
         annee: 2025,
         numero: 929,
@@ -4997,7 +4997,7 @@ export const articlesData = {
       },
       {
         id: 555,
-        titre: "PANORAMA II: AFRIQUE DU NORD",
+        titre: "TRIPTYQUE SUR LE DROIT NUMÉRIQUE EN AFRIQUE, Sous la direction de M. Yvon LAURIER NGOMBE; PANORAMA II: AFRIQUE DU NORD",
         auteur: "Yvon Laurier NGOMBE, Avocat Docteur en droit, Enseignant au Conservatoire national des arts et métiers (CNAM, Ile de France); Hanane RHARRABI, Professeur à l'Université international de Rabat (Maroc); Firmin KOUADIO, Juriste (Abidjan, Côte d'Ivoire); Jean Peingdewiendé OUEDRAOGO, Docteur en droit, Chargé de Cours à l'Université Lyon 2 (France)",
         annee: 2025,
         numero: 929,
@@ -5006,7 +5006,7 @@ export const articlesData = {
       },
       {
         id: 556,
-        titre: "PANORAMA III: L'ESPACE OHADA ET DE L'ESPACE OAPI",
+        titre: "TRIPTYQUE SUR LE DROIT NUMÉRIQUE EN AFRIQUE, Sous la direction de M. Yvon LAURIER NGOMBE; PANORAMA III: L'ESPACE OHADA ET DE L'ESPACE OAPI",
         auteur: "Yvon Laurier NGOMBÉ, Docteur en droit (Ph.D.) avocat, enseignant; Christian KPOLO, Docteur en droit (Ph.D.) avocat, enseignant; Nilce EKANDZI, Docteur en droit (Ph.D.) avocat, enseignant; Firmin KOUADIO, Juriste",
         annee: 2025,
         numero: 929,
