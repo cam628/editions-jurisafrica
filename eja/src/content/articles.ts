@@ -22,6 +22,7 @@ export const articlesData = {
     "INVESTISSEMENTS ETRANGERS",
     "DROIT MINIER, PETROLIER ET DES RESSOURCES NATURELLES",
     "DROIT MONETAIRE ET FINANCIER",
+    "DROIT DU NUMERIQUE",
     "DROIT PENAL ET PROCEDURE PENALE",
     "PROCEDURE CIVILE ET ORGANISATION JUDICIAIRE",
     "PROCEDURES COLLECTIVES",
@@ -3214,6 +3215,15 @@ export const articlesData = {
       theme: "PROPRIETE INTELLECTUELLE"
     },
     {
+      id: 3531,
+      titre: "PROPRIÉTÉ INTELLECTUELLES ET COMMERCE ÉLECTRONIQUE DANS L'ESPACE OAPI ET DANS L'ESPACE OHADA",
+      auteur: "Laurier Yvon NGOMBE, Docteur en droit, Avocat à la Cour de Paris, Chargé d'enseignement au CNAM",
+      annee: 2021,
+      numero: 915,
+      pages: "277",
+      theme: "DROIT DU NUMERIQUE"
+    },
+    {
       id: 354,
       titre: "REGARDS SUR LE CODE DU NUMÉRIQUE AU BÉNIN",
       auteur: "Julien C. HOUNKPÉ, Docteur en droit privé, Université d'Abomey-Calavi (Bénin)",
@@ -3248,6 +3258,15 @@ export const articlesData = {
       numero: 922,
       pages: "147",
       theme: "PROPRIETE INTELLECTUELLE"
+    },
+    {
+      id: 3571,
+      titre: "ACTES DU COLLOQUE : LE DROIT DE LA PROPRIETE INTELLECTUELLE A L'HEURE DU NUMERIQUE : LES APPORTS DE L'ACTE DE BAMAKO",
+      auteur: "Propos introductifs de Nicolas BINCTIN",
+      annee: 2023,
+      numero: 922,
+      pages: "147",
+      theme: "DROIT DU NUMERIQUE"
     },
     {
       id: 358,
@@ -4984,7 +5003,7 @@ export const articlesData = {
         annee: 2025,
         numero: 929,
         pages: "165",
-        theme: ""
+        theme: "DROIT DU NUMERIQUE"
       },
       {
         id: 554,
@@ -4993,7 +5012,7 @@ export const articlesData = {
         annee: 2025,
         numero: 929,
         pages: "166",
-        theme: ""
+        theme: "DROIT DU NUMERIQUE"
       },
       {
         id: 555,
@@ -5002,7 +5021,7 @@ export const articlesData = {
         annee: 2025,
         numero: 929,
         pages: "183",
-        theme: ""
+        theme: "DROIT DU NUMERIQUE"
       },
       {
         id: 556,
@@ -5011,7 +5030,7 @@ export const articlesData = {
         annee: 2025,
         numero: 929,
         pages: "199",
-        theme: ""
+        theme: "DROIT DU NUMERIQUE"
       }
   ]
 };
