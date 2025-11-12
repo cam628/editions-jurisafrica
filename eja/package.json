@@ -12,7 +12,8 @@
     "vercel-build": "next build",
     "start": "next start",
     "lint": "eslint",
-    "parse:articles": "ts-node scripts/parse-articles.ts"
+    "parse:articles": "ts-node scripts/parse-articles.ts",
+    "test:links": "node scripts/test-links.mjs"
   },
   "dependencies": {
     "next": "15.5.4",
