@@ -248,7 +248,11 @@ function PenantContent() {
                       <p><strong>DOCTRINE</strong></p>
                       {articlesData.articles
                         .filter(article => article.numero === 929)
-                        .sort((a, b) => parseInt(a.pages) - parseInt(b.pages))
+                        .sort((a, b) => {
+                          const pagesA = a.pages ? parseInt(a.pages) : 0;
+                          const pagesB = b.pages ? parseInt(b.pages) : 0;
+                          return pagesA - pagesB;
+                        })
                         .map((article, index) => (
                           <div key={article.id} className="space-y-1">
                             <p><strong>{article.titre}</strong></p>
