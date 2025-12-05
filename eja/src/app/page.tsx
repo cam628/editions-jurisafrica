@@ -16,6 +16,7 @@ export default function Page() {
     setLightboxOpen(true);
   };
   return (
+    <>
     <main className="bg-slate-100 relative min-h-screen">
       <section className="container-6xl py-10 relative z-10">
         <div className="heading-small">
@@ -200,5 +201,6 @@ export default function Page() {
       imageSrc={lightboxImage}
       alt={lightboxAlt}
     />
+    </>
   );
 }
