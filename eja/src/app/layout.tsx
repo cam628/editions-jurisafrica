@@ -6,11 +6,11 @@ import { OrganizationStructuredData, WebsiteStructuredData } from './structured-
 
 export const metadata = {
   title: {
-    default: 'Éditions JurisAfrica - Revue Le PENANT et publications juridiques africaines',
-    template: '%s | Éditions JurisAfrica'
+    default: 'EJA Éditions - Éditions JurisAfrica - Revue Le PENANT et publications juridiques africaines',
+    template: '%s | EJA Éditions - Éditions JurisAfrica'
   },
-  description: 'Éditions JurisAfrica publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain. Revue juridique et politique des États francophones depuis 1946.',
-  keywords: ['droit africain', 'OHADA', 'revue juridique', 'PENANT', 'publications juridiques', 'droit francophone', 'jurisprudence africaine'],
+  description: 'EJA Éditions (Éditions JurisAfrica) publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain. Revue juridique et politique des États francophones depuis 1946.',
+  keywords: ['eja editions', 'eja', 'éditions jurisafrica', 'droit africain', 'OHADA', 'revue juridique', 'PENANT', 'publications juridiques', 'droit francophone', 'jurisprudence africaine'],
   authors: [{ name: 'Éditions JurisAfrica' }],
   creator: 'Éditions JurisAfrica',
   publisher: 'Éditions JurisAfrica',
@@ -27,9 +27,9 @@ export const metadata = {
     type: 'website',
     locale: 'fr_FR',
     url: 'https://www.editionsjurisafrica.com',
-    title: 'Éditions JurisAfrica - Revue Le PENANT et publications juridiques africaines',
-    description: 'Éditions JurisAfrica publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain. Revue juridique et politique des États francophones depuis 1946.',
-    siteName: 'Éditions JurisAfrica',
+    title: 'EJA Éditions - Éditions JurisAfrica - Revue Le PENANT et publications juridiques africaines',
+    description: 'EJA Éditions (Éditions JurisAfrica) publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain. Revue juridique et politique des États francophones depuis 1946.',
+    siteName: 'EJA Éditions - Éditions JurisAfrica',
     images: [
       {
         url: '/logo.png',
@@ -41,8 +41,8 @@ export const metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Éditions JurisAfrica - Revue Le PENANT et publications juridiques africaines',
-    description: 'Éditions JurisAfrica publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain.',
+    title: 'EJA Éditions - Éditions JurisAfrica - Revue Le PENANT et publications juridiques africaines',
+    description: 'EJA Éditions (Éditions JurisAfrica) publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain.',
     images: ['/logo.png'],
   },
   robots: {

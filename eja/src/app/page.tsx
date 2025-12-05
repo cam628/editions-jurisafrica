@@ -20,7 +20,7 @@ export default function Page() {
       <section className="container-6xl py-10 relative z-10">
         <div className="heading-small">
           <h1 className="sticky-h1 text-6xl font-extralight text-[#063f0e] select-none">
-            Éditions JurisAfrica
+            EJA Éditions - Éditions JurisAfrica
           </h1>
           {/* Spacer to offset fixed h1 height (reduced) */}
           <div className="h-6 md:h-8" aria-hidden="true" />

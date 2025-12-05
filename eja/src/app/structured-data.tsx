@@ -3,10 +3,10 @@ export function OrganizationStructuredData() {
     "@context": "https://schema.org",
     "@type": "Organization",
     "name": "Éditions JurisAfrica",
-    "alternateName": "EJA",
+    "alternateName": ["EJA", "EJA Éditions", "eja editions"],
     "url": "https://www.editionsjurisafrica.com",
     "logo": "https://www.editionsjurisafrica.com/logo.png",
-    "description": "Éditions JurisAfrica publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain. Revue juridique et politique des États francophones depuis 1946.",
+    "description": "EJA Éditions (Éditions JurisAfrica) publie la prestigieuse revue Le PENANT et des ouvrages spécialisés en droit africain. Revue juridique et politique des États francophones depuis 1946.",
     "foundingDate": "1946",
     "address": {
       "@type": "PostalAddress",
@@ -48,7 +48,7 @@ export function PublicationStructuredData() {
     "datePublished": "1946",
     "inLanguage": "fr",
     "genre": "Revue juridique",
-    "keywords": ["droit africain", "OHADA", "revue juridique", "droit francophone", "jurisprudence africaine"]
+    "keywords": ["eja editions", "eja", "éditions jurisafrica", "droit africain", "OHADA", "revue juridique", "droit francophone", "jurisprudence africaine"]
   };
 
   return (
@@ -63,9 +63,10 @@ export function WebsiteStructuredData() {
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "WebSite",
-    "name": "Éditions JurisAfrica",
+    "name": "EJA Éditions - Éditions JurisAfrica",
+    "alternateName": ["EJA", "eja editions"],
     "url": "https://www.editionsjurisafrica.com",
-    "description": "Site officiel des Éditions JurisAfrica - Revue Le PENANT et publications juridiques africaines",
+    "description": "Site officiel d'EJA Éditions (Éditions JurisAfrica) - Revue Le PENANT et publications juridiques africaines",
     "publisher": {
       "@type": "Organization",
       "name": "Éditions JurisAfrica"
