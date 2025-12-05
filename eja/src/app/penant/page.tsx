@@ -89,7 +89,7 @@ function PenantContent() {
   // Filter articles
   const filteredArticles = articlesData.articles.filter(article => {
     const matchesSearch = article.titre.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                         article.auteur.toLowerCase().includes(searchTerm.toLowerCase());
+                         (article.auteur && article.auteur.toLowerCase().includes(searchTerm.toLowerCase()));
     const matchesYear = !selectedYear || article.annee.toString() === selectedYear;
     const matchesTheme = !selectedTheme || article.theme === selectedTheme;
     
@@ -252,7 +252,7 @@ function PenantContent() {
                         .map((article, index) => (
                           <div key={article.id} className="space-y-1">
                             <p><strong>{article.titre}</strong></p>
-                            <p>par {article.auteur}</p>
+                            {article.auteur && <p>par {article.auteur}</p>}
                           </div>
                         ))
                       }
@@ -381,9 +381,9 @@ function PenantContent() {
                   {filteredArticles.map(article => (
                     <div key={article.id} className="pl-4 py-2 bg-slate-50 rounded">
                       <h4 className="font-semibold text-[#063f0e] mb-1">{article.titre}</h4>
-                      <p className="text-sm text-gray-700 mb-1">par {article.auteur}</p>
+                      {article.auteur && <p className="text-sm text-gray-700 mb-1">par {article.auteur}</p>}
                       <p className="text-xs text-gray-600">
-                        PENANT {article.numero} ({article.annee}) - Pages {article.pages} - {article.theme}
+                        PENANT {article.numero} ({article.annee}){article.pages && ` - Pages ${article.pages}`}{article.theme && ` - ${article.theme}`}
                       </p>
                     </div>
                   ))}
