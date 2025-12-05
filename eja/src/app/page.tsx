@@ -1,7 +1,20 @@
+'use client';
+
+import { useState } from 'react';
 import Image from 'next/image';
 import news from '@/content/news.json';
+import Lightbox from '@/components/Lightbox';
 
 export default function Page() {
+  const [lightboxOpen, setLightboxOpen] = useState(false);
+  const [lightboxImage, setLightboxImage] = useState<string>('');
+  const [lightboxAlt, setLightboxAlt] = useState<string>('');
+
+  const handleImageClick = (imageSrc: string, alt: string) => {
+    setLightboxImage(imageSrc);
+    setLightboxAlt(alt);
+    setLightboxOpen(true);
+  };
   return (
     <main className="bg-slate-100 relative min-h-screen">
       <section className="container-6xl py-10 relative z-10">
@@ -50,6 +63,12 @@ export default function Page() {
               ? (item as any).images
               : undefined;
             const hasVisual = Boolean(item.embed) || Boolean(imageSrc) || (Array.isArray(imagesArray) && imagesArray.length > 0);
+            const lightboxImageSrc = (item as any).lightboxImage
+              ? ((item as any).lightboxImage.startsWith('/') 
+                  ? (item as any).lightboxImage 
+                  : `/${(item as any).lightboxImage}`)
+              : undefined;
+
             return (
             <div key={item.id} className="news-item">
               {item.embed ? (
@@ -82,13 +101,22 @@ export default function Page() {
                   </div>
                 ) : (
                   imageSrc && (
-                    <Image
-                      src={imageSrc}
-                      alt={item.title}
-                      width={700}
-                      height={400}
-                      className="news-image"
-                    />
+                    <div 
+                      className="cursor-pointer"
+                      onClick={() => {
+                        if (lightboxImageSrc) {
+                          handleImageClick(lightboxImageSrc, item.title);
+                        }
+                      }}
+                    >
+                      <Image
+                        src={imageSrc}
+                        alt={item.title}
+                        width={700}
+                        height={400}
+                        className="news-image transition-opacity hover:opacity-90"
+                      />
+                    </div>
                   )
                 )
               )}
@@ -165,6 +193,12 @@ export default function Page() {
       <p className="mt-4 text-lg text-gray-700">
       </p>
     </section>
-    </main >
+    </main>
+    <Lightbox
+      isOpen={lightboxOpen}
+      onClose={() => setLightboxOpen(false)}
+      imageSrc={lightboxImage}
+      alt={lightboxAlt}
+    />
   );
 }

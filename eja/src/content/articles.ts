@@ -5031,6 +5031,106 @@ export const articlesData = {
         numero: 929,
         pages: "199",
         theme: "DROIT DU NUMERIQUE"
+      },
+      // Articles du numéro 930 (2026) - À compléter ultérieurement
+      {
+        id: 557,
+        titre: "Préface",
+        auteur: "Maître Jean-Baptiste HARELIMANA",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 558,
+        titre: "Existe-t-il une culture africaine de l'arbitrage international ? État des lieux",
+        auteur: "Kevin DIZO et Adam MALEK",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 559,
+        titre: "Le contentieux local africain en droit des investissements : perspective du contentieux arbitral",
+        auteur: "M. Guindo ISSIAKA",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 560,
+        titre: "L'évolution des clauses de stabilisation dans les contrats énergétiques et miniers et les traités d'investissement en relation avec l'arbitrage d'investissement — Stabiliser sans figer ?",
+        auteur: "Guy BLOCH",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 561,
+        titre: "L'annulation d'une sentence arbitrale : regards croisés de droit français, de droit canadien (Québec et Ontario) et de droit de l'Organisation pour l'Harmonisation en Afrique du Droit des Affaires (OHADA)",
+        auteur: "Dr. Harouna SIBIDE",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 562,
+        titre: "L'arbitrage et les procédures collectives dans l'espace OHADA : entre rationalité économique et impératifs de l'ordre public économique",
+        auteur: "Vodwe BAKEKO",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 563,
+        titre: "L'arbitrage OHADA et l'intelligence artificielle : une valse à trois temps",
+        auteur: "Céline Ndongo DJOUMAMOUA",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 564,
+        titre: "Arbitrer depuis les Cours de Justice de la CEMAC et de la CAE",
+        auteur: "Eugène Pascal Parfait NKILI MBIDA",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 565,
+        titre: "L'arbitrage à Madagascar",
+        auteur: "Fanomezantsoa Eddy RANDRIAMAMY",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 566,
+        titre: "Les incohérences de la Cour d'appel de Ouagadougou – À propos de l'annulation d'une sentence arbitrale (Cour d'appel Ouagadougou arrêt n° 79 du 12 août 2022)",
+        auteur: "Martial AKAKPO et Pr. Ampah JOHNSON-ANSAH",
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
+      },
+      {
+        id: 567,
+        titre: "La CAIP : un Centre d'arbitrage commercial pour l'Afrique",
+        auteur: null,
+        annee: 2026,
+        numero: 930,
+        pages: null,
+        theme: null
       }
   ]
 };
