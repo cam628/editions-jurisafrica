@@ -57,9 +57,13 @@ export const metadata = {
     },
   },
   icons: {
-    icon: '/logo.png',
+    icon: [
+      { url: '/logo.png', sizes: 'any' },
+    ],
     shortcut: '/logo.png',
-    apple: '/logo.png',
+    apple: [
+      { url: '/logo.png', sizes: '180x180', type: 'image/png' },
+    ],
   },
 };
 
