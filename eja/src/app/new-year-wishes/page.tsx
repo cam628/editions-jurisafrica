@@ -8,17 +8,17 @@ export default function NewYearWishesPage() {
     <div className="min-h-screen flex items-center justify-center bg-gradient-to-br from-slate-50 to-slate-100 p-6 md:p-8" style={{ marginTop: '-80px', paddingTop: '100px' }}>
       <div className="max-w-6xl w-full">
         <div className="bg-white rounded-xl shadow-lg p-6 md:p-8 lg:p-10">
-          <div className="grid md:grid-cols-3 gap-6 md:gap-8 items-start">
+          <div className="grid md:grid-cols-3 gap-6 md:gap-8">
             {/* French Text - Left */}
-            <div className="order-1 space-y-4 text-[#063f0e]">
+            <div className="order-1 text-[#063f0e] flex flex-col justify-start">
               <p className="text-base md:text-lg leading-relaxed font-light italic">
                 Alors que l'année touche à sa fin, je vous remercie pour la confiance, les échanges et les projets partagés en 2025. Que l'année à venir soit porteuse de clarté, de continuité et de nouvelles perspectives.
               </p>
             </div>
 
             {/* Image - Center (bigger) */}
-            <div className="order-2 flex flex-col items-center">
-              <Link href="/" className="block cursor-pointer transition-opacity hover:opacity-95">
+            <div className="order-2 flex flex-col items-center justify-start">
+              <Link href="/" className="block cursor-pointer transition-opacity hover:opacity-95 mb-4">
                 <Image
                   src="/best-wishes.png"
                   alt="Meilleurs vœux pour la nouvelle année - Éditions JurisAfrica"
@@ -29,7 +29,7 @@ export default function NewYearWishesPage() {
                   unoptimized
                 />
               </Link>
-              <div className="mt-4 text-center">
+              <div className="text-center">
                 <p className="text-sm md:text-base text-[#063f0e] font-normal">
                   Bien cordialement,
                 </p>
@@ -40,7 +40,7 @@ export default function NewYearWishesPage() {
             </div>
 
             {/* English Text - Right */}
-            <div className="order-3 space-y-4 text-[#063f0e]">
+            <div className="order-3 text-[#063f0e] flex flex-col justify-start">
               <p className="text-base md:text-lg leading-relaxed font-light italic">
                 As the year draws to a close,<br />
                 I would like to thank you for the trust, exchanges, and projects shared throughout 2025.<br />
