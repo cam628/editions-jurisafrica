@@ -5085,7 +5085,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "112",
-        theme: "PROCEDURES COLLECTIVES"
+        theme: "DROIT COMMERCIAL"
       },
       {
         id: 563,
@@ -5158,7 +5158,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "35",
-        theme: "ARBITRAGE ET MEDIATION"
+        theme: "DROIT COMMERCIAL"
       },
       {
         id: 571,
