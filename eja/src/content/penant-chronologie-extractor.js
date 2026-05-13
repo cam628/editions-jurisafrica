@@ -193,7 +193,7 @@ function determineTheme(title) {
   if (titleLower.includes('environnement')) return 'Droit de l\'environnement';
   if (titleLower.includes('propriété') || titleLower.includes('intellectuelle')) return 'Droit de la propriété intellectuelle';
   if (titleLower.includes('famille') || titleLower.includes('succession')) return 'Droit de la famille';
-  if (titleLower.includes('commercial')) return 'Droit commercial';
+  if (titleLower.includes('commercial')) return 'DROIT COMMERCIAL';
   if (titleLower.includes('fiscal') || titleLower.includes('impôt')) return 'Droit fiscal';
   
   return 'Droit des sociétés'; // Default theme

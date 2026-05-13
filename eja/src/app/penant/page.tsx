@@ -86,12 +86,16 @@ function PenantContent() {
   // Lightbox state to display enlarged images
   const [lightboxSrc, setLightboxSrc] = useState<string | null>(null);
   
+  // Thème catalogue : articles sans rubrique
+  const THEME_NON_CLASSE = 'NON CLASSÉ';
+
   // Filter articles
   const filteredArticles = articlesData.articles.filter(article => {
     const matchesSearch = article.titre.toLowerCase().includes(searchTerm.toLowerCase()) ||
                          (article.auteur && article.auteur.toLowerCase().includes(searchTerm.toLowerCase()));
     const matchesYear = !selectedYear || article.annee.toString() === selectedYear;
-    const matchesTheme = !selectedTheme || article.theme === selectedTheme;
+    const effectiveTheme = article.theme ?? THEME_NON_CLASSE;
+    const matchesTheme = !selectedTheme || effectiveTheme === selectedTheme;
     
     return matchesSearch && matchesYear && matchesTheme;
   });
@@ -387,7 +391,7 @@ function PenantContent() {
                       <h4 className="font-semibold text-[#063f0e] mb-1">{article.titre}</h4>
                       {article.auteur && <p className="text-sm text-gray-700 mb-1">par {article.auteur}</p>}
                       <p className="text-xs text-gray-600">
-                        PENANT {article.numero} ({article.annee}){article.pages && ` - Pages ${article.pages}`}{article.theme && ` - ${article.theme}`}
+                        PENANT {article.numero} ({article.annee}){article.pages && ` - Pages ${article.pages}`}{` - ${article.theme ?? THEME_NON_CLASSE}`}
                       </p>
                     </div>
                   ))}

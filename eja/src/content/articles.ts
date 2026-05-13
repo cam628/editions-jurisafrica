@@ -34,7 +34,7 @@ export const articlesData = {
     "DROIT DES TRANSPORTS",
     "DROIT DU TRAVAIL",
     "VENTE ET DISTRIBUTION",
-    "UNCLASSIFIED"
+    "NON CLASSÉ"
   ],
   articles: [
     {
@@ -5036,11 +5036,11 @@ export const articlesData = {
       {
         id: 557,
         titre: "PRÉFACE",
-        auteur: "Jean-Baptiste HARELIMANA, Avocat au Barreau de Hauts-de-Seine et Président de l'APDI",
+        auteur: "Maître Jean-Baptiste HARELIMANA, Avocat au Barreau de Hauts-de-Seine et Président de l'APDI",
         annee: 2026,
         numero: 930,
         pages: "5",
-        theme: null
+        theme: "NON CLASSÉ"
       },
       {
         id: 558,
@@ -5049,7 +5049,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "7",
-        theme: "Droit international public"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       {
         id: 559,
@@ -5058,7 +5058,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "22",
-        theme: "Droit des investissements"
+        theme: "INVESTISSEMENTS ETRANGERS"
       },
       {
         id: 560,
@@ -5067,7 +5067,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "58",
-        theme: "Droit de l'énergie"
+        theme: "DROIT MINIER, PETROLIER ET DES RESSOURCES NATURELLES"
       },
       {
         id: 561,
@@ -5076,7 +5076,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "91",
-        theme: "Droit international public"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       {
         id: 562,
@@ -5085,7 +5085,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "112",
-        theme: "Droit commercial"
+        theme: "PROCEDURES COLLECTIVES"
       },
       {
         id: 563,
@@ -5094,7 +5094,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "153",
-        theme: "Droit des télécommunications"
+        theme: "DROIT DU NUMERIQUE"
       },
       {
         id: 564,
@@ -5103,7 +5103,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "167",
-        theme: "Droit international public"
+        theme: "DROIT COMMUNAUTAIRE : UEMOA et CEMAC"
       },
       {
         id: 565,
@@ -5112,7 +5112,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "202",
-        theme: "Droit international public"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       {
         id: 566,
@@ -5121,7 +5121,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "229",
-        theme: "Droit international public"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       {
         id: 567,
@@ -5130,7 +5130,7 @@ export const articlesData = {
         annee: 2026,
         numero: 930,
         pages: "243",
-        theme: "Droit commercial"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       // Articles du numéro 931 (2026)
       {
@@ -5140,7 +5140,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "5",
-        theme: "Droit international public"
+        theme: "DROIT DES INSTITUTIONS (OHADA, NATIONALES ET COMMUNAUTAIRES)"
       },
       {
         id: 569,
@@ -5149,7 +5149,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "15",
-        theme: "Droit international public"
+        theme: "RECOUVREMENT DE CREANCES ET VOIES D'EXECUTION"
       },
       {
         id: 570,
@@ -5158,7 +5158,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "35",
-        theme: "Droit commercial"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       {
         id: 571,
@@ -5167,7 +5167,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "53",
-        theme: "Droit des contrats"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       {
         id: 572,
@@ -5176,7 +5176,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "77",
-        theme: "Droit des obligations"
+        theme: "ARBITRAGE ET MEDIATION"
       },
       {
         id: 573,
@@ -5185,7 +5185,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "83",
-        theme: "Droit des contrats"
+        theme: "DROIT DES CONTRATS"
       },
       {
         id: 574,
@@ -5194,7 +5194,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "107",
-        theme: "Droit des successions"
+        theme: "DROIT DES INSTITUTIONS (OHADA, NATIONALES ET COMMUNAUTAIRES)"
       },
       {
         id: 575,
@@ -5203,7 +5203,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "129",
-        theme: "Droit des obligations"
+        theme: "RECOUVREMENT DE CREANCES ET VOIES D'EXECUTION"
       },
       {
         id: 576,
@@ -5212,7 +5212,7 @@ export const articlesData = {
         annee: 2026,
         numero: 931,
         pages: "145",
-        theme: "Droit des investissements"
+        theme: "INVESTISSEMENTS ETRANGERS"
       }
   ]
 };
