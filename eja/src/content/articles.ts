@@ -5032,105 +5032,187 @@ export const articlesData = {
         pages: "199",
         theme: "DROIT DU NUMERIQUE"
       },
-      // Articles du numéro 930 (2026) - À compléter ultérieurement
+      // Articles du numéro 930 (2026)
       {
         id: 557,
-        titre: "Préface",
-        auteur: "Maître Jean-Baptiste HARELIMANA",
+        titre: "PRÉFACE",
+        auteur: "Jean-Baptiste HARELIMANA, Avocat au Barreau de Hauts-de-Seine et Président de l'APDI",
         annee: 2026,
         numero: 930,
-        pages: null,
+        pages: "5",
         theme: null
       },
       {
         id: 558,
-        titre: "Existe-t-il une culture africaine de l'arbitrage international ? État des lieux",
-        auteur: "Kevin DIZO et Adam MALEK",
+        titre: "EXISTE-T-IL UNE CULTURE AFRICAINE DE L'ARBITRAGE INTERNATIONAL ?",
+        auteur: "Kévin DIZO, Docteur en Droit Privé et Sciences Criminelles, ATER Droit Privé 2025-2026, Nantes Université, Adam MALEK, Avocat, barreau de Paris, Enseignant à l'école HEAD, membre du conseil d'administration et co-fondateur de l'APAA",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "7",
+        theme: "Droit international public"
       },
       {
         id: 559,
-        titre: "Le contentieux local africain en droit des investissements : perspective du contentieux arbitral",
-        auteur: "M. Guindo ISSIAKA",
+        titre: "LE CONTENU LOCAL EN DROIT DES INVESTISSEMENT DU CONTINENT AFRICAIN",
+        auteur: "Issaka GUINDO, Doctorant contractuel à l'École doctorale de la Sorbonne, Département droit comparé, Institut des sciences juridique et philosophique",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "22",
+        theme: "Droit des investissements"
       },
       {
         id: 560,
-        titre: "L'évolution des clauses de stabilisation dans les contrats énergétiques et miniers et les traités d'investissement en relation avec l'arbitrage d'investissement — Stabiliser sans figer ?",
-        auteur: "Guy BLOCH",
+        titre: "L'ÉVOLUTION DES CLAUSES DE STABILISATION DANS LES CONTRATS ÉNERGÉTIQUES ET MINIERS ET LES TRAITÉS D'INVESTISSEMENT EN RELATION AVEC L'ARBITRAGE D'INVESTISSEMENT",
+        auteur: "Quemi HERRENO SAN, Avocat associé et Head du Département Énergie, Climat et Mobilité, Cabinet Janson, Gabriel VILLA, Avocat, Département Énergie, Climat et Mobilité, Cabinet Janson",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "58",
+        theme: "Droit de l'énergie"
       },
       {
         id: 561,
-        titre: "L'annulation d'une sentence arbitrale : regards croisés de droit français, de droit canadien (Québec et Ontario) et de droit de l'Organisation pour l'Harmonisation en Afrique du Droit des Affaires (OHADA)",
-        auteur: "Dr. Harouna SIBIDE",
+        titre: "L'ANNULATION D'UNE SENTENCE ARBITRALE CANADIEN (QUÉBEC) : SES ENTRE LE DROIT DE L'ORGANISATION POUR L'HARMONISATION EN AFRIQUE DU DROIT DES AFFAIRES (OHADA)",
+        auteur: "Dr. Harouna SALEY, Arbitre international (Toronto, Canada), Docteur en droit de l'université Côte d'Azur (Nice, France), Titulaire du Certificat de la profession d'Avocat (CAPA), LLM Canadian Common Law Osgoode Hall Law School, York University, Toronto",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "91",
+        theme: "Droit international public"
       },
       {
         id: 562,
-        titre: "L'arbitrage et les procédures collectives dans l'espace OHADA : entre rationalité économique et impératifs de l'ordre public économique",
-        auteur: "Vodwe BAKEKO",
+        titre: "L'ARBITRAGE ET LES PROCÉDURES COLLECTIVES DANS L'ESPACE OHADA : ENTRE AUTONOMIE DE LA VOLONTÉ ET IMPÉRATIFS DE L'ORDRE PUBLIC ÉCONOMIQUE",
+        auteur: "Voudye BAKREO, Agrégé des facultés de droit, Enseignant à l'Université de Douala au Cameroun",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "112",
+        theme: "Droit commercial"
       },
       {
         id: 563,
-        titre: "L'arbitrage OHADA et l'intelligence artificielle : une valse à trois temps",
-        auteur: "Céline Ndongo DJOUMAMOUA",
+        titre: "L'ARBITRAGE OHADA ET L'INTELLIGENCE ARTIFICIELLE : UNE VALSE À TROIS TEMPS",
+        auteur: "Céline NDOUMOUA, Docteur en droit privé de l'université de Paris Panthéon Sorbonne, Chargée de cours à la faculté de droit et sciences politiques de l'université de Douala, Arbitre référencée au Centre de Médiation et d'Arbitrage du GECAM (Cameroun)",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "153",
+        theme: "Droit des télécommunications"
       },
       {
         id: 564,
-        titre: "Arbitrer depuis les Cours de Justice de la CEMAC et de la CAE",
-        auteur: "Eugène Pascal Parfait NKILI MBIDA",
+        titre: "ARBITRER DEPUIS LES COURS DE JUSTICE DE LA CEMAC ET DE LA CAE",
+        auteur: "Pascal Patrick NKILI MBIDA, Ph.D en Droit public, Université de Yaoundé II, Magistrat, Arbitre à la Cour d'Arbitrage des Comores, Président de la commission Arbitrage de la Section jeunes de l'IFA/APDI, Membre associé de l'Institut de Recherche en Droit International et Comparé, Membre du Comité Toulousain de la Législation",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "167",
+        theme: "Droit international public"
       },
       {
         id: 565,
-        titre: "L'arbitrage à Madagascar",
-        auteur: "Fanomezantsoa Eddy RANDRIAMAMY",
+        titre: "L'ARBITRAGE À MADAGASCAR",
+        auteur: "Fanomezantsoa Edly RANDRIAMAMY, Juriste",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "202",
+        theme: "Droit international public"
       },
       {
         id: 566,
-        titre: "Les incohérences de la Cour d'appel de Ouagadougou – À propos de l'annulation d'une sentence arbitrale (Cour d'appel Ouagadougou arrêt n° 79 du 12 août 2022)",
-        auteur: "Martial AKAKPO et Pr. Ampah JOHNSON-ANSAH",
+        titre: "LES INCOHÉRENCES DE LA COUR D'APPEL DE OUAGADOUGOU À PROPOS DE L'ANNULATION D'UNE SENTENCE ARBITRALE (COUR D'APPEL DE OUAGADOUGOU ARRÊT N° 79 DU 12 AOÛT 2022)",
+        auteur: "Martial AKAKPO, Avocat au Barreau du Togo, Docteur en Droit, Pr. Ampah JOHNSON-ANSAH, Maître de Conférences CAMES",
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "229",
+        theme: "Droit international public"
       },
       {
         id: 567,
-        titre: "La CAIP : un Centre d'arbitrage commercial pour l'Afrique",
+        titre: "LA CAIP : UN CENTRE D'ARBITRAGE COMMERCIAL POUR L'AFRIQUE",
         auteur: null,
         annee: 2026,
         numero: 930,
-        pages: null,
-        theme: null
+        pages: "243",
+        theme: "Droit commercial"
+      },
+      // Articles du numéro 931 (2026)
+      {
+        id: 568,
+        titre: "L’OPPORTUNITÉ D’UNE HARMONISATION DES RÈGLES DE PROCÉDURE APPLICABLES AU CONTENTIEUX OHADA",
+        auteur: "Hamidou TANGARA, Docteur en droit privé et sciences criminelles, Enseignant-chercheur à l'Université, Sorbonne Paris Nord, Élève avocat à l'EFB",
+        annee: 2026,
+        numero: 931,
+        pages: "5",
+        theme: "Droit international public"
+      },
+      {
+        id: 569,
+        titre: "LA RÉVISION DE L’IMMUNITÉ D’EXÉCUTION EN DROIT OHADA : TROP DE BRUIT POUR RIEN ?",
+        auteur: "Angèle VONDOU, Docteur en droit, FSJP Maroua, Cameroun",
+        annee: 2026,
+        numero: 931,
+        pages: "15",
+        theme: "Droit international public"
+      },
+      {
+        id: 570,
+        titre: "LIBRES PROPOS SUR L’EXÉCUTION DE L’ACCORD DE MÉDIATION CONVENTIONNELLE À LA LUMIÈRE DU DROIT OHADA",
+        auteur: "Innocent TCHAMGWE, Chargé de cours, Université de Buea, Cameroun",
+        annee: 2026,
+        numero: 931,
+        pages: "35",
+        theme: "Droit commercial"
+      },
+      {
+        id: 571,
+        titre: "PROPOS SUR L’ARBITRAGE ET LA MÉDIATION EN LIGNE",
+        auteur: "Julien C. HOUNKPE, Docteur en droit, Université d'Abomey Calavi, Bénin",
+        annee: 2026,
+        numero: 931,
+        pages: "53",
+        theme: "Droit des contrats"
+      },
+      {
+        id: 572,
+        titre: "APPRENDRE À SE TAIRE POUR ÉCOUTER : RETOUR SUR UNE PREMIÈRE MÉDIATION INTERCULTURELLE DIFFICILE",
+        auteur: "Catherine TEYA, Médiateur agréé, Conseil juridique inscrit",
+        annee: 2026,
+        numero: 931,
+        pages: "77",
+        theme: "Droit des obligations"
+      },
+      {
+        id: 573,
+        titre: "LA BONNE FOI ET LA VIE CONTRACTUELLE : UN MARIAGE SANS DIVORCE ?",
+        auteur: "le Pr. Zakari NJUTAPVOUI, Maître de Conférences, Université de Douala, Cameroun",
+        annee: 2026,
+        numero: 931,
+        pages: "83",
+        theme: "Droit des contrats"
+      },
+      {
+        id: 574,
+        titre: "LA VOCATION SUCCESSORALE DE L’ÉTAT",
+        auteur: "Cédric Carol TSAFACK DJOUMESSI, Docteur en droit, Chargé de cours Université de DSCHANG, Cameroun",
+        annee: 2026,
+        numero: 931,
+        pages: "107",
+        theme: "Droit des successions"
+      },
+      {
+        id: 575,
+        titre: "ÉTAT DES LIEUX DES ACTIONS OBLIQUE ET PAULIENNE",
+        auteur: "Mon Espoir MFINI, Directeur de publication de la RADE, Université du Mans",
+        annee: 2026,
+        numero: 931,
+        pages: "129",
+        theme: "Droit des obligations"
+      },
+      {
+        id: 576,
+        titre: "COUR D'APPEL DE PARIS, PÔLE 5, CH. 16, 28 OCTOBRE 2025, RÉPUBLIQUE GABONAISE (ET A.) C/ AVERDA ENVIRONMENTAL SERVICES GABON S.A., N° 23/16145",
+        auteur: "Pr. Malick LAAZOUZI, Agrégé des facultés de droit, Professeur à l'Université Paris Panthéon-Assas",
+        annee: 2026,
+        numero: 931,
+        pages: "145",
+        theme: "Droit des investissements"
       }
   ]
 };

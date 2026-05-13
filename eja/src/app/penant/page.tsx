@@ -223,31 +223,31 @@ function PenantContent() {
                     {/* Column 1: Both Images stacked - smallest (200px) */}
                     <div className="flex flex-col gap-4 lg:w-[200px]">
                       <Image
-                        src="/penant-929-oct-dec-orig.jpg"
+                        src="/penant-931-2026-avril-juin-couv.jpg"
                         alt="Couverture du Penant"
                         width={200}
                         height={280}
                         className="rounded shadow w-full h-auto cursor-zoom-in hover:opacity-90 transition"
-                        onClick={() => setLightboxSrc('/penant-929-oct-dec-orig.jpg')}
+                        onClick={() => setLightboxSrc('/penant-931-2026-avril-juin-couv.jpg')}
                         priority
                       />
                       <Image
-                        src="/penant-929-oct-dec-som.jpg"
+                        src="/penant-931-2026-avril-juin-som.jpg"
                         alt="Sommaire du Penant"
                         width={200}
                         height={280}
                         className="rounded shadow w-full h-auto cursor-zoom-in hover:opacity-90 transition"
-                        onClick={() => setLightboxSrc('/penant-929-oct-dec-som.jpg')}
+                        onClick={() => setLightboxSrc('/penant-931-2026-avril-juin-som.jpg')}
                         priority
                       />
                     </div>
                     
                     {/* Column 2: Articles list (Sommaire) - biggest (flexible) */}
                     <div className="flex-1 text-content space-y-4">
-                      <p><strong>OCTOBRE-DÉCEMBRE 2025, Nº929</strong></p>
+                      <p><strong>AVRIL-JUIN 2026, Nº931</strong></p>
                       <p><strong>DOCTRINE</strong></p>
                       {articlesData.articles
-                        .filter(article => article.numero === 929)
+                        .filter(article => article.numero === 931)
                         .sort((a, b) => {
                           const pagesA = a.pages ? parseInt(a.pages) : 0;
                           const pagesB = b.pages ? parseInt(b.pages) : 0;
